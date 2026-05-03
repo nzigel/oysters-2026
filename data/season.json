@@ -1,0 +1,271 @@
+{
+  "team": {
+    "name": "Warkworth FC — Oysters",
+    "shortName": "Oysters",
+    "league": "NRF Men Div. 8 Harbour (Section A)",
+    "season": "2026",
+    "leagueUrl": "https://www.nrf.org.nz/Competitions-1/Senior-Competitions/nrf-community-senior-men",
+    "groupUrl": "https://www.facebook.com/groups/1495935420450971"
+  },
+  "squad": [
+    { "number": 1,  "name": "Caleb Paxton-Penman", "facebook": "https://www.facebook.com/groups/1495935420450971/user/100000554555339/" },
+    { "number": 2,  "name": "Simon Hartley",        "facebook": "https://www.facebook.com/groups/1495935420450971/user/548650546/" },
+    { "number": 3,  "name": "Isaac Lee",            "facebook": "https://www.facebook.com/groups/1495935420450971/user/1328687583/" },
+    { "number": 4,  "name": "Tim Baker",            "facebook": "https://www.facebook.com/groups/1495935420450971/user/1187776730/" },
+    { "number": 5,  "name": "Paul Hamblett",        "facebook": "https://www.facebook.com/groups/1495935420450971/user/61559015859258/" },
+    { "number": 6,  "name": "Jimmy Bowens",         "facebook": "https://www.facebook.com/groups/1495935420450971/user/891920716/" },
+    { "number": 7,  "name": "Jake White",           "facebook": "https://www.facebook.com/groups/1495935420450971/user/1031199054/" },
+    { "number": 8,  "name": "Keegan Petersen",      "facebook": "https://www.facebook.com/groups/1495935420450971/user/100007014601049/" },
+    { "number": 9,  "name": "GaiTuiteran Takaatu",  "facebook": "https://www.facebook.com/groups/1495935420450971/user/61566331053296/" },
+    { "number": 10, "name": "Temataake Bwauro",     "facebook": "https://www.facebook.com/groups/1495935420450971/user/100016711514152/" },
+    { "number": 11, "name": "Treye Liu",            "facebook": "https://www.facebook.com/groups/1495935420450971/user/1834245379/" },
+    { "number": 12, "name": "Betiraoi Æ Lpú Tebarine", "facebook": "https://www.facebook.com/groups/1495935420450971/user/100040851648866/" },
+    { "number": 13, "name": "Tęŋ Sŭŋ Qŭịcƙ Tebarine", "facebook": "https://www.facebook.com/groups/1495935420450971/user/61572823988081/" },
+    { "number": 14, "name": "Dane Awatea Vazey",    "facebook": "https://www.facebook.com/groups/1495935420450971/user/1440434207/" },
+    { "number": 15, "name": "Nigel Parker",         "facebook": "https://www.facebook.com/groups/1495935420450971/user/558042056/" },
+    { "number": 16, "name": "Patrick Goodfellow",   "facebook": null },
+    { "number": 17, "name": "Michael Sweeney",      "facebook": "https://www.facebook.com/groups/1495935420450971/user/197807984/" }
+  ],
+  "fixtures": [
+    {
+      "id": 1,
+      "date": "2026-04-11",
+      "time": "13:00",
+      "venue": "Shoesmith Domain: Field 2",
+      "home": "Oysters",
+      "away": "Craigs Ski Troopers",
+      "opponentClub": "Northern Rovers",
+      "isHome": true,
+      "result": {
+        "status": "confirmed",
+        "ourScore": 5,
+        "theirScore": 2,
+        "scorers": [],
+        "selectedSquad": [],
+        "referee": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": 2,
+      "date": "2026-04-18",
+      "time": "15:00",
+      "venue": "Stanmore Bay Park: Field 3",
+      "home": "Coast Thunder",
+      "away": "Oysters",
+      "opponentClub": "Hibiscus Coast AFC",
+      "isHome": false,
+      "result": {
+        "status": "confirmed",
+        "ourScore": 2,
+        "theirScore": 1,
+        "scorers": [],
+        "selectedSquad": [],
+        "referee": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": 3,
+      "date": "2026-05-02",
+      "time": "15:00",
+      "venue": "Shoesmith Domain: Field 2",
+      "home": "Oysters",
+      "away": "Birkenheadaches",
+      "opponentClub": "Birkenhead United",
+      "isHome": true,
+      "result": {
+        "status": "disputed",
+        "ourScore": 5,
+        "theirScore": 1,
+        "scorers": [],
+        "selectedSquad": [
+          "Caleb Paxton-Penman",
+          "Simon Hartley",
+          "Isaac Lee",
+          "Tim Baker",
+          "Paul Hamblett",
+          "Jimmy Bowens",
+          "Jake White",
+          "Keegan Petersen",
+          "GaiTuiteran Takaatu",
+          "Temataake Bwauro",
+          "Treye Liu",
+          "Betiraoi Æ Lpú Tebarine",
+          "Tęŋ Sŭŋ Qŭịcƙ Tebarine",
+          "Dane Awatea Vazey",
+          "Nigel Parker",
+          "Patrick Goodfellow",
+          "Michael Sweeney"
+        ],
+        "referee": null,
+        "notes": "Score disputed (sides entered different scores). Actual: 5–1 to Oysters."
+      }
+    },
+    {
+      "id": 4,
+      "date": "2026-05-09",
+      "time": "13:00",
+      "venue": "Bay City Park: Field 3",
+      "home": "Ally Pally",
+      "away": "Oysters",
+      "opponentClub": "East Coast Bays A.F.C",
+      "isHome": false,
+      "result": { "status": "scheduled", "ourScore": null, "theirScore": null, "scorers": [], "selectedSquad": [], "referee": null, "notes": "" }
+    },
+    {
+      "id": 5,
+      "date": "2026-05-16",
+      "time": "15:00",
+      "venue": "Shoesmith Domain: Field 2",
+      "home": "Oysters",
+      "away": "Buyusabeer",
+      "opponentClub": "Birkenhead United",
+      "isHome": true,
+      "result": { "status": "scheduled", "ourScore": null, "theirScore": null, "scorers": [], "selectedSquad": [], "referee": null, "notes": "" }
+    },
+    {
+      "id": 6,
+      "date": "2026-05-23",
+      "time": "13:00",
+      "venue": "Shoesmith Domain: Field 1",
+      "home": "Oysters",
+      "away": "Knights",
+      "opponentClub": "Hibiscus Coast AFC",
+      "isHome": true,
+      "result": { "status": "scheduled", "ourScore": null, "theirScore": null, "scorers": [], "selectedSquad": [], "referee": null, "notes": "" }
+    },
+    {
+      "id": 7,
+      "date": "2026-06-06",
+      "time": "15:00",
+      "venue": "Metro Park: Field 3",
+      "home": "Cyclones",
+      "away": "Oysters",
+      "opponentClub": "Rodney District Sports Club",
+      "isHome": false,
+      "result": { "status": "scheduled", "ourScore": null, "theirScore": null, "scorers": [], "selectedSquad": [], "referee": null, "notes": "" }
+    },
+    {
+      "id": 8,
+      "date": "2026-06-13",
+      "time": "13:00",
+      "venue": "Shoesmith Domain: Field 1",
+      "home": "Oysters",
+      "away": "Nephews",
+      "opponentClub": "Rodney District Sports Club",
+      "isHome": true,
+      "result": { "status": "scheduled", "ourScore": null, "theirScore": null, "scorers": [], "selectedSquad": [], "referee": null, "notes": "" }
+    },
+    {
+      "id": 9,
+      "date": "2026-06-20",
+      "time": "13:00",
+      "venue": "Greenhithe War Memorial Park: Field 1",
+      "home": "Hardheads",
+      "away": "Oysters",
+      "opponentClub": "Greenhithe Roaring 40s Sports Club",
+      "isHome": false,
+      "result": { "status": "scheduled", "ourScore": null, "theirScore": null, "scorers": [], "selectedSquad": [], "referee": null, "notes": "" }
+    },
+    {
+      "id": 10,
+      "date": "2026-06-27",
+      "time": "13:00",
+      "venue": "McFetridge Park: Field 3",
+      "home": "Craigs Ski Troopers",
+      "away": "Oysters",
+      "opponentClub": "Northern Rovers",
+      "isHome": false,
+      "result": { "status": "scheduled", "ourScore": null, "theirScore": null, "scorers": [], "selectedSquad": [], "referee": null, "notes": "" }
+    },
+    {
+      "id": 11,
+      "date": "2026-07-04",
+      "time": "13:00",
+      "venue": "Shoesmith Domain: Field 2",
+      "home": "Oysters",
+      "away": "Coast Thunder",
+      "opponentClub": "Hibiscus Coast AFC",
+      "isHome": true,
+      "result": { "status": "scheduled", "ourScore": null, "theirScore": null, "scorers": [], "selectedSquad": [], "referee": null, "notes": "" }
+    },
+    {
+      "id": 12,
+      "date": "2026-07-18",
+      "time": "15:00",
+      "venue": "Onepoto Domain: Field 1",
+      "home": "Birkenheadaches",
+      "away": "Oysters",
+      "opponentClub": "Birkenhead United",
+      "isHome": false,
+      "result": { "status": "scheduled", "ourScore": null, "theirScore": null, "scorers": [], "selectedSquad": [], "referee": null, "notes": "" }
+    },
+    {
+      "id": 13,
+      "date": "2026-07-25",
+      "time": "13:00",
+      "venue": "Shoesmith Domain: Field 2",
+      "home": "Oysters",
+      "away": "Ally Pally",
+      "opponentClub": "East Coast Bays A.F.C",
+      "isHome": true,
+      "result": { "status": "scheduled", "ourScore": null, "theirScore": null, "scorers": [], "selectedSquad": [], "referee": null, "notes": "" }
+    },
+    {
+      "id": 14,
+      "date": "2026-08-01",
+      "time": "13:00",
+      "venue": "Shepherds Park: Field 4",
+      "home": "Buyusabeer",
+      "away": "Oysters",
+      "opponentClub": "Birkenhead United",
+      "isHome": false,
+      "result": { "status": "scheduled", "ourScore": null, "theirScore": null, "scorers": [], "selectedSquad": [], "referee": null, "notes": "" }
+    },
+    {
+      "id": 15,
+      "date": "2026-08-08",
+      "time": "13:00",
+      "venue": "Stanmore Bay Park: Field 3",
+      "home": "Knights",
+      "away": "Oysters",
+      "opponentClub": "Hibiscus Coast AFC",
+      "isHome": false,
+      "result": { "status": "scheduled", "ourScore": null, "theirScore": null, "scorers": [], "selectedSquad": [], "referee": null, "notes": "" }
+    },
+    {
+      "id": 16,
+      "date": "2026-08-15",
+      "time": "13:00",
+      "venue": "Shoesmith Domain: Field 1",
+      "home": "Oysters",
+      "away": "Cyclones",
+      "opponentClub": "Rodney District Sports Club",
+      "isHome": true,
+      "result": { "status": "scheduled", "ourScore": null, "theirScore": null, "scorers": [], "selectedSquad": [], "referee": null, "notes": "" }
+    },
+    {
+      "id": 17,
+      "date": "2026-08-22",
+      "time": "13:00",
+      "venue": "Metro Park: Field 1",
+      "home": "Nephews",
+      "away": "Oysters",
+      "opponentClub": "Rodney District Sports Club",
+      "isHome": false,
+      "result": { "status": "scheduled", "ourScore": null, "theirScore": null, "scorers": [], "selectedSquad": [], "referee": null, "notes": "" }
+    },
+    {
+      "id": 18,
+      "date": "2026-08-29",
+      "time": "13:00",
+      "venue": "Shoesmith Domain: Field 1",
+      "home": "Oysters",
+      "away": "Hardheads",
+      "opponentClub": "Greenhithe Roaring 40s Sports Club",
+      "isHome": true,
+      "result": { "status": "scheduled", "ourScore": null, "theirScore": null, "scorers": [], "selectedSquad": [], "referee": null, "notes": "" }
+    }
+  ]
+}

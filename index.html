@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Warkworth FC — Oysters · 2026 Season</title>
+  <meta name="description" content="2026 season tracker for Warkworth FC Oysters in NRF Men Div. 8 Harbour — fixtures, results, weekly squads, scorers and refs." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Warkworth FC — <span class="accent">Oysters</span></h1>
+      <p class="subtitle"><span id="league-name">NRF Men Div. 8 Harbour</span> · <span id="season-name">2026</span></p>
+      <nav class="tabs" id="tabs">
+        <button class="tab active" data-tab="overview">Overview</button>
+        <button class="tab" data-tab="fixtures">Fixtures &amp; Results</button>
+        <button class="tab" data-tab="standings">Our Record</button>
+        <button class="tab" data-tab="scorers">Top Scorers</button>
+        <button class="tab" data-tab="appearances">Appearances</button>
+        <button class="tab" data-tab="squad">Squad</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="tab-overview" class="tab-panel active">
+      <div class="grid grid-2">
+        <div class="card">
+          <h2>Next match</h2>
+          <div id="next-match"></div>
+        </div>
+        <div class="card">
+          <h2>Last result</h2>
+          <div id="last-result"></div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Season at a glance</h2>
+        <div id="quick-stats" class="quick-stats"></div>
+      </div>
+    </section>
+
+    <section id="tab-fixtures" class="tab-panel">
+      <div class="card">
+        <h2>All fixtures</h2>
+        <p class="muted">Click any row to expand — selected squad, scorers and ref are shown for completed games.</p>
+        <div id="fixtures-list"></div>
+      </div>
+    </section>
+
+    <section id="tab-standings" class="tab-panel">
+      <div class="card">
+        <h2>Our season record</h2>
+        <p class="muted">Computed from confirmed results. Full league table is on the <a id="league-link" href="#" target="_blank" rel="noopener">NRF site</a>.</p>
+        <div id="our-record"></div>
+        <h3 style="margin-top:2rem;">By opponent</h3>
+        <div id="opponent-table"></div>
+      </div>
+    </section>
+
+    <section id="tab-scorers" class="tab-panel">
+      <div class="card">
+        <h2>Top scorers</h2>
+        <p class="muted">Goals from confirmed match results.</p>
+        <div id="scorers-list"></div>
+      </div>
+    </section>
+
+    <section id="tab-appearances" class="tab-panel">
+      <div class="card">
+        <h2>Appearances</h2>
+        <p class="muted">Selected squad totals across confirmed matches.</p>
+        <div id="appearances-list"></div>
+      </div>
+    </section>
+
+    <section id="tab-squad" class="tab-panel">
+      <div class="card">
+        <h2>Squad</h2>
+        <div id="squad-list" class="squad-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        Built for the <a id="group-link" href="#" target="_blank" rel="noopener">Oysters Facebook group</a>.
+        To update results, edit
+        <code>data/season.json</code> on GitHub.
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
