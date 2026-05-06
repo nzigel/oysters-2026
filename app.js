@@ -183,6 +183,7 @@ function renderOverview(data) {
   });
   const totalGoals = completed.reduce((s,f) => s + (f.result.scorers || []).reduce((x,sc) => x + (sc.goals || 1), 0), 0);
   document.getElementById('quick-stats').innerHTML = `
+    <div class="stat" id="position-stat"><div class="stat-value">—</div><div class="stat-label">Position</div></div>
     ${stat(completed.length, 'Played')}
     ${stat(w, 'Won')}
     ${stat(d, 'Drawn')}
@@ -392,15 +393,31 @@ function renderSquad(data) {
   const html = data.squad.map(p => `
     <div class="player">
       <span class="num">${p.number}</span>
-      <span>${p.facebook ? `<a href="${escapeHtml(p.facebook)}" target="_blank" rel="noopener">${escapeHtml(p.name)}</a>` : escapeHtml(p.name)}</span>
+      <span>${escapeHtml(p.name)}</span>
     </div>
   `).join('');
   document.getElementById('squad-list').innerHTML = html;
 }
 
+function ordinal(n) {
+  const s = ['th', 'st', 'nd', 'rd'];
+  const v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+}
+
 function renderLeagueTable(nrf) {
   const updatedEl = document.getElementById('nrf-updated');
   const tableEl = document.getElementById('nrf-table');
+
+  if (nrf.table && nrf.table.length) {
+    const idx = nrf.table.findIndex(t =>
+      t.team.toLowerCase().includes('oysters') || t.team.toLowerCase().includes('warkworth')
+    );
+    if (idx >= 0) {
+      const posEl = document.querySelector('#position-stat .stat-value');
+      if (posEl) posEl.textContent = ordinal(idx + 1);
+    }
+  }
 
   if (nrf.updated) {
     const d = new Date(nrf.updated);
