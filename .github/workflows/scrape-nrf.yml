@@ -13,16 +13,11 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: '20'
-
-      - name: Install Playwright + Chromium
-        run: |
-          npm install playwright
-          npx playwright install chromium --with-deps
+          node-version: '22'
 
       - name: Scrape NRF data
         run: node scripts/scrape-nrf.js
