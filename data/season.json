@@ -75,7 +75,7 @@
       "opponentClub": "Birkenhead United",
       "isHome": true,
       "result": {
-        "status": "disputed",
+        "status": "confirmed",
         "ourScore": 5,
         "theirScore": 1,
         "scorers": [],
@@ -99,13 +99,14 @@
           "Michael Sweeney"
         ],
         "referee": null,
-        "notes": "Score disputed (sides entered different scores). Actual: 5–1 to Oysters."
+        "notes": ""
       }
     },
     {
       "id": 4,
       "date": "2026-05-09",
-      "time": "13:00",
+      "time": "15:00",
+      "originalTime": "13:00",
       "venue": "Bay City Park: Field 3",
       "home": "Ally Pally",
       "away": "Oysters",
