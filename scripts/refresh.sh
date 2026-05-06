@@ -22,6 +22,9 @@ if [[ -n "$(git status --porcelain)" ]]; then
   exit 1
 fi
 
+echo "==> pulling main..."
+git pull --ff-only origin main
+
 echo "==> scraping NRF..."
 node scripts/scrape-nrf.js
 
