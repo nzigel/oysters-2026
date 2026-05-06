@@ -390,12 +390,21 @@ function renderAppearances(data) {
 }
 
 function renderSquad(data) {
-  const html = data.squad.map(p => `
+  const referees = new Set(
+    data.fixtures
+      .map(f => f.result && f.result.referee)
+      .filter(Boolean)
+  );
+  const html = data.squad.map(p => {
+    const hasReffed = p.preseasonRef || referees.has(p.name);
+    const badge = hasReffed ? `<span class="ref-band" title="Has refereed this season">R</span>` : '';
+    return `
     <div class="player">
       <span class="num">${p.number}</span>
       <span>${escapeHtml(p.name)}</span>
-    </div>
-  `).join('');
+      ${badge}
+    </div>`;
+  }).join('');
   document.getElementById('squad-list').innerHTML = html;
 }
 
