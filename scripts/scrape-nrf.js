@@ -145,6 +145,17 @@ async function run() {
     }
   }
 
+  // Skip the write when only the `updated` timestamp would change —
+  // keeps refresh runs from producing no-op commits.
+  if (fs.existsSync(OUTPUT)) {
+    const existing = JSON.parse(fs.readFileSync(OUTPUT, 'utf8'));
+    const stripTs = ({ updated, ...rest }) => rest;
+    if (JSON.stringify(stripTs(existing)) === JSON.stringify(stripTs(out))) {
+      console.log(`No change in ${OUTPUT} (timestamp only) — not rewriting`);
+      return;
+    }
+  }
+
   fs.writeFileSync(OUTPUT, JSON.stringify(out, null, 2));
   console.log(`Wrote ${OUTPUT} — ${out.table.length} table rows, ${out.fixtures.length} fixtures`);
 }
