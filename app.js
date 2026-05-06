@@ -30,6 +30,12 @@ async function init() {
   renderScorers(data);
   renderAppearances(data);
   renderSquad(data);
+
+  // Load NRF live data (non-blocking)
+  fetch('data/nrf.json', { cache: 'no-cache' })
+    .then(r => r.ok ? r.json() : null)
+    .then(nrf => nrf && renderLeagueTable(nrf))
+    .catch(() => {});
 }
 
 function setupTabs() {
@@ -378,6 +384,66 @@ function renderSquad(data) {
     </div>
   `).join('');
   document.getElementById('squad-list').innerHTML = html;
+}
+
+function renderLeagueTable(nrf) {
+  const updatedEl = document.getElementById('nrf-updated');
+  const tableEl = document.getElementById('nrf-table');
+
+  if (nrf.updated) {
+    const d = new Date(nrf.updated);
+    updatedEl.textContent = `Last updated: ${d.toLocaleString('en-NZ', { dateStyle: 'medium', timeStyle: 'short' })}`;
+  }
+
+  if (nrf.error && (!nrf.table || nrf.table.length === 0)) {
+    tableEl.innerHTML = `<p class="muted">League table not yet available. ${escapeHtml(nrf.error)}</p>
+      <p class="muted">The scraper runs automatically — check back after the next scheduled update.</p>`;
+    return;
+  }
+
+  if (!nrf.table || nrf.table.length === 0) {
+    tableEl.innerHTML = `<p class="muted">League table not yet available — the scraper will populate this automatically.</p>`;
+    return;
+  }
+
+  const rows = nrf.table.map((t, i) => {
+    const isUs = t.team.toLowerCase().includes('oysters') || t.team.toLowerCase().includes('warkworth');
+    const gd = t.gd != null ? t.gd : (t.gf - t.ga);
+    return `
+      <tr class="${isUs ? 'highlight-row' : ''}">
+        <td class="num">${i + 1}</td>
+        <td>${escapeHtml(t.team)}${isUs ? ' <strong>★</strong>' : ''}</td>
+        <td class="num">${t.played}</td>
+        <td class="num">${t.won}</td>
+        <td class="num">${t.drawn}</td>
+        <td class="num">${t.lost}</td>
+        <td class="num">${t.gf}</td>
+        <td class="num">${t.ga}</td>
+        <td class="num">${gd >= 0 ? '+' + gd : gd}</td>
+        <td class="num"><strong>${t.points}</strong></td>
+      </tr>`;
+  }).join('');
+
+  tableEl.innerHTML = `
+    <table class="data">
+      <thead>
+        <tr>
+          <th class="num">#</th>
+          <th>Team</th>
+          <th class="num">P</th>
+          <th class="num">W</th>
+          <th class="num">D</th>
+          <th class="num">L</th>
+          <th class="num">GF</th>
+          <th class="num">GA</th>
+          <th class="num">GD</th>
+          <th class="num">Pts</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+    ${nrf.error ? `<p class="muted" style="margin-top:1rem;">⚠ ${escapeHtml(nrf.error)}</p>` : ''}
+  `;
 }
 
 init();
