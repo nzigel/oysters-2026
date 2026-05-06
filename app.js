@@ -19,7 +19,6 @@ async function init() {
   document.getElementById('league-name').textContent = data.team.league;
   document.getElementById('season-name').textContent = `${data.team.season} season`;
   document.getElementById('league-link').href = data.team.leagueUrl;
-  document.getElementById('group-link').href = data.team.groupUrl;
   document.title = `${data.team.name} · ${data.team.season} Season`;
 
   setupTabs();
@@ -59,8 +58,7 @@ function isOurGoal(scorer, squadNames) {
 
 function isCompleted(f) {
   const r = f.result || {};
-  return (r.status === 'confirmed' || r.status === 'disputed') &&
-         r.ourScore != null && r.theirScore != null;
+  return r.status === 'confirmed' && r.ourScore != null && r.theirScore != null;
 }
 
 function isUpcoming(f) {
@@ -93,10 +91,24 @@ function fmtTime(t) {
 function resultClass(f) {
   if (!isCompleted(f)) return '';
   const r = f.result;
-  if (r.status === 'disputed') return 'disputed';
   if (r.ourScore > r.theirScore) return 'win';
   if (r.ourScore < r.theirScore) return 'loss';
   return 'draw';
+}
+
+function timeHtml(f) {
+  const current = fmtTime(f.time);
+  if (f.originalTime && f.originalTime !== f.time) {
+    return `<span class="changed-was">${escapeHtml(fmtTime(f.originalTime))}</span> ${escapeHtml(current)}`;
+  }
+  return escapeHtml(current);
+}
+
+function venueHtml(f) {
+  if (f.originalVenue && f.originalVenue !== f.venue) {
+    return `<span class="changed-was">${escapeHtml(f.originalVenue)}</span> ${escapeHtml(f.venue)}`;
+  }
+  return escapeHtml(f.venue);
 }
 
 function ourScoreFirst(f) {
@@ -130,8 +142,8 @@ function renderOverview(data) {
       <div class="match-summary">
         <div>
           <div class="team-line">vs ${escapeHtml(opp)} <span class="muted">(${escapeHtml(next.opponentClub)})</span></div>
-          <div class="muted" style="margin-top:0.35rem;">${fmtDateLong(next.date)} · ${fmtTime(next.time)}</div>
-          <div class="muted">${escapeHtml(next.venue)} · ${next.isHome ? 'Home' : 'Away'}</div>
+          <div class="muted" style="margin-top:0.35rem;">${fmtDateLong(next.date)} · ${timeHtml(next)}</div>
+          <div class="muted">${venueHtml(next)} · ${next.isHome ? 'Home' : 'Away'}</div>
         </div>
       </div>`;
   } else {
@@ -143,7 +155,7 @@ function renderOverview(data) {
   if (last) {
     const opp = opponentName(last);
     const cls = resultClass(last);
-    const label = cls === 'win' ? 'Win' : cls === 'loss' ? 'Loss' : cls === 'draw' ? 'Draw' : 'Disputed';
+    const label = cls === 'win' ? 'Win' : cls === 'loss' ? 'Loss' : 'Draw';
     lastEl.innerHTML = `
       <div class="match-summary">
         <div>
@@ -171,6 +183,7 @@ function renderOverview(data) {
   });
   const totalGoals = completed.reduce((s,f) => s + (f.result.scorers || []).reduce((x,sc) => x + (sc.goals || 1), 0), 0);
   document.getElementById('quick-stats').innerHTML = `
+    <div class="stat" id="position-stat"><div class="stat-value">—</div><div class="stat-label">Position</div></div>
     ${stat(completed.length, 'Played')}
     ${stat(w, 'Won')}
     ${stat(d, 'Drawn')}
@@ -196,7 +209,7 @@ function renderFixtures(data) {
 function fixtureRow(f, isNext) {
   const cls = resultClass(f);
   const score = isCompleted(f)
-    ? `<span class="score-pill ${cls}">${f.result.ourScore} – ${f.result.theirScore}${f.result.status==='disputed' ? ' *' : ''}</span>`
+    ? `<span class="score-pill ${cls}">${f.result.ourScore} – ${f.result.theirScore}</span>`
     : `<span class="muted">vs</span>`;
   const tag = isNext
     ? `<div class="next-tag upcoming">Next</div>`
@@ -227,7 +240,7 @@ function fixtureRow(f, isNext) {
   return `
     <details class="fixture">
       <summary>
-        <div class="match-date">${fmtDate(f.date)}<br><span class="muted">${fmtTime(f.time)}</span></div>
+        <div class="match-date">${fmtDate(f.date)}<br><span class="muted">${timeHtml(f)}</span></div>
         <div class="team-home"><strong>${escapeHtml(f.home)}</strong>${f.isHome ? '' : ` <span class="muted">(${escapeHtml(f.opponentClub)})</span>`}</div>
         <div class="center-score">${score}</div>
         <div class="team-away"><strong>${escapeHtml(f.away)}</strong>${f.isHome ? ` <span class="muted">(${escapeHtml(f.opponentClub)})</span>` : ''}</div>
@@ -236,7 +249,7 @@ function fixtureRow(f, isNext) {
       <div class="detail">
         <div class="detail-block">
           <h4>Venue</h4>
-          <div>${escapeHtml(f.venue)} <span class="muted">· ${f.isHome ? 'Home' : 'Away'}</span></div>
+          <div>${venueHtml(f)} <span class="muted">· ${f.isHome ? 'Home' : 'Away'}</span></div>
           <h4 style="margin-top:1rem;">Goal scorers</h4>
           ${scorersHtml}
           <h4 style="margin-top:1rem;">Referee</h4>
@@ -380,15 +393,31 @@ function renderSquad(data) {
   const html = data.squad.map(p => `
     <div class="player">
       <span class="num">${p.number}</span>
-      <span>${p.facebook ? `<a href="${escapeHtml(p.facebook)}" target="_blank" rel="noopener">${escapeHtml(p.name)}</a>` : escapeHtml(p.name)}</span>
+      <span>${escapeHtml(p.name)}</span>
     </div>
   `).join('');
   document.getElementById('squad-list').innerHTML = html;
 }
 
+function ordinal(n) {
+  const s = ['th', 'st', 'nd', 'rd'];
+  const v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+}
+
 function renderLeagueTable(nrf) {
   const updatedEl = document.getElementById('nrf-updated');
   const tableEl = document.getElementById('nrf-table');
+
+  if (nrf.table && nrf.table.length) {
+    const idx = nrf.table.findIndex(t =>
+      t.team.toLowerCase().includes('oysters') || t.team.toLowerCase().includes('warkworth')
+    );
+    if (idx >= 0) {
+      const posEl = document.querySelector('#position-stat .stat-value');
+      if (posEl) posEl.textContent = ordinal(idx + 1);
+    }
+  }
 
   if (nrf.updated) {
     const d = new Date(nrf.updated);
