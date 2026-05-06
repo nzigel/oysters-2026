@@ -1,0 +1,38 @@
+name: Scrape NRF fixtures & table
+
+on:
+  schedule:
+    # 5am & 5pm NZST (UTC+12) — catches Saturday afternoon results + Sunday morning
+    - cron: '0 5,17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Playwright + Chromium
+        run: |
+          npm install playwright
+          npx playwright install chromium --with-deps
+
+      - name: Scrape NRF data
+        run: node scripts/scrape-nrf.js
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet data/nrf.json || (
+            git add data/nrf.json &&
+            git commit -m "chore: update NRF data $(date -u +%Y-%m-%dT%H:%MZ)" &&
+            git push
+          )
