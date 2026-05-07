@@ -49,6 +49,16 @@ function setupTabs() {
   });
 }
 
+function showFixture(id) {
+  const tab = document.querySelector('.tab[data-tab="fixtures"]');
+  if (tab) tab.click();
+  const el = document.getElementById('fixture-' + id);
+  if (el) {
+    el.open = true;
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
 // ---------- helpers ----------
 
 function isOurGoal(scorer, squadNames) {
@@ -139,13 +149,17 @@ function renderOverview(data) {
   if (next) {
     const opp = opponentName(next);
     nextEl.innerHTML = `
-      <div class="match-summary">
+      <a href="#" class="match-summary match-link" data-fixture="${next.id}">
         <div>
           <div class="team-line">vs ${escapeHtml(opp)} <span class="muted">(${escapeHtml(next.opponentClub)})</span></div>
           <div class="muted" style="margin-top:0.35rem;">${fmtDateLong(next.date)} · ${timeHtml(next)}</div>
           <div class="muted">${venueHtml(next)} · ${next.isHome ? 'Home' : 'Away'}</div>
         </div>
-      </div>`;
+      </a>`;
+    nextEl.querySelector('.match-link').addEventListener('click', e => {
+      e.preventDefault();
+      showFixture(next.id);
+    });
   } else {
     nextEl.innerHTML = `<p class="muted">No upcoming fixtures.</p>`;
   }
@@ -238,7 +252,7 @@ function fixtureRow(f, isNext) {
     : '';
 
   return `
-    <details class="fixture">
+    <details class="fixture" id="fixture-${f.id}">
       <summary>
         <div class="match-date">${fmtDate(f.date)}<br><span class="muted">${timeHtml(f)}</span></div>
         <div class="team-home"><strong>${escapeHtml(f.home)}</strong>${f.isHome ? '' : ` <span class="muted">(${escapeHtml(f.opponentClub)})</span>`}</div>
