@@ -92,6 +92,10 @@
     {
       "number": 21,
       "name": "Bureitabonini Toobwai (Tauro)"
+    },
+    {
+      "number": 22,
+      "name": "Oscar"
     }
   ],
   "fixtures": [
@@ -265,10 +269,12 @@
           "Dane Awatea Vazey",
           "Keegan Petersen",
           "Jake White",
-          "Isaac Lee"
+          "Isaac Lee",
+          "Oscar",
+          "Sam Williamson"
         ],
         "referee": null,
-        "notes": "Unavailable: Mark Reekie, Treye Liu, Sam Williamson (R). 4 spots still open.",
+        "notes": "Unavailable: Mark Reekie, Treye Liu.",
         "goalkeeper": "Jake White"
       }
     },
