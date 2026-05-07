@@ -292,6 +292,7 @@ function renderRecord(data) {
   const pts = w*3 + d;
   const gd = gf - ga;
   document.getElementById('our-record').innerHTML = `
+    <div class="table-wrap">
     <table class="data">
       <thead>
         <tr>
@@ -314,6 +315,7 @@ function renderRecord(data) {
         </tr>
       </tbody>
     </table>
+    </div>
   `;
 
   // By opponent
@@ -344,12 +346,14 @@ function renderRecord(data) {
       </tr>
     `).join('');
   document.getElementById('opponent-table').innerHTML = `
+    <div class="table-wrap">
     <table class="data">
       <thead>
         <tr><th>Opponent</th><th class="num">P</th><th class="num">W</th><th class="num">D</th><th class="num">L</th><th class="num">GF</th><th class="num">GA</th></tr>
       </thead>
       <tbody>${rows}</tbody>
     </table>
+    </div>
   `;
 }
 
@@ -371,10 +375,12 @@ function renderScorers(data) {
     <tr><td>${i+1}</td><td>${escapeHtml(p)}</td><td class="num"><strong>${g}</strong></td></tr>
   `).join('');
   document.getElementById('scorers-list').innerHTML = `
+    <div class="table-wrap">
     <table class="data">
       <thead><tr><th>#</th><th>Player</th><th class="num">Goals</th></tr></thead>
       <tbody>${rows}</tbody>
     </table>
+    </div>
   `;
 }
 
@@ -396,10 +402,12 @@ function renderAppearances(data) {
   `).join('');
   document.getElementById('appearances-list').innerHTML = `
     <p class="muted">Across ${confirmedGames} completed game${confirmedGames === 1 ? '' : 's'}.</p>
+    <div class="table-wrap">
     <table class="data">
       <thead><tr><th>Player</th><th class="num">Apps</th></tr></thead>
       <tbody>${rows}</tbody>
     </table>
+    </div>
   `;
 }
 
@@ -477,6 +485,7 @@ function renderLeagueTable(nrf) {
   }).join('');
 
   tableEl.innerHTML = `
+    <div class="table-wrap">
     <table class="data">
       <thead>
         <tr>
@@ -494,6 +503,7 @@ function renderLeagueTable(nrf) {
       </thead>
       <tbody>${rows}</tbody>
     </table>
+    </div>
     ${nrf.error ? `<p class="muted" style="margin-top:1rem;">⚠ ${escapeHtml(nrf.error)}</p>` : ''}
   `;
 }
