@@ -107,7 +107,8 @@ main { padding: 1.5rem 0 3rem; }
   flex-wrap: wrap;
   cursor: pointer;
 }
-.match-link:hover { color: var(--accent); }
+.match-link .team-line { color: var(--accent); text-decoration: underline; text-decoration-color: transparent; transition: text-decoration-color 0.15s; }
+.match-link:hover .team-line { text-decoration-color: var(--accent); }
 .match-date { color: var(--muted); font-size: 0.85rem; min-width: 130px; }
 .team-line { font-weight: 600; }
 .score-pill {
