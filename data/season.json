@@ -245,9 +245,10 @@
     {
       "id": 4,
       "date": "2026-05-09",
-      "time": "15:00",
+      "time": "15:15",
       "originalTime": "13:00",
-      "venue": "Bay City Park: Field 3",
+      "venue": "Bay City Park: Field 1",
+      "originalVenue": "Bay City Park: Field 3",
       "home": "Ally Pally",
       "away": "Oysters",
       "opponentClub": "East Coast Bays A.F.C",
