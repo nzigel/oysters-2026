@@ -222,8 +222,10 @@ function renderFixtures(data) {
 
 function fixtureRow(f, isNext) {
   const cls = resultClass(f);
+  const homeScore = f.isHome ? f.result?.ourScore : f.result?.theirScore;
+  const awayScore = f.isHome ? f.result?.theirScore : f.result?.ourScore;
   const score = isCompleted(f)
-    ? `<span class="score-pill ${cls}">${f.result.ourScore} – ${f.result.theirScore}</span>`
+    ? `<span class="score-pill ${cls}">${homeScore} – ${awayScore}</span>`
     : `<span class="muted">vs</span>`;
   const tag = isNext
     ? `<div class="next-tag upcoming">Next</div>`
