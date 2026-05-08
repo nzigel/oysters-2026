@@ -39,4 +39,4 @@ jobs:
             --title "chore: update NRF data $(date -u +%Y-%m-%dT%H:%MZ)" \
             --body "Automated NRF data scrape." \
             --base main
-          gh pr merge "$BRANCH" --auto --squash
+          gh pr merge "$BRANCH" --squash --admin
