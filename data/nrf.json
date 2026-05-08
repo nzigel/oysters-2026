@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-06T23:49:45.467Z",
+  "updated": "2026-05-08T05:03:15.839Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -318,7 +318,7 @@
     {
       "id": 6301611,
       "kind": "upcoming",
-      "date": "2026-05-09T15:00:00",
+      "date": "2026-05-09T15:15:00",
       "section": "Section A",
       "round": "ROUND 4",
       "home": {
@@ -329,7 +329,7 @@
         "team": "Oysters",
         "club": "Warkworth FC"
       },
-      "venue": "Bay City Park: Field 2",
+      "venue": "Bay City Park: Field 1",
       "venueAddress": "Bay City Park",
       "officials": null,
       "homeScore": null,
