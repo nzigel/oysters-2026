@@ -124,6 +124,15 @@ main { padding: 1.5rem 0 3rem; }
 .score-pill.loss { background: #fde8e7; color: var(--loss); }
 .score-pill.draw { background: #fcf2d4; color: var(--draw); }
 
+.default-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-top: 0.2rem;
+  text-align: center;
+}
+
 .changed-was {
   text-decoration: line-through;
   text-decoration-color: var(--loss);

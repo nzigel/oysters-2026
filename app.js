@@ -68,7 +68,11 @@ function isOurGoal(scorer, squadNames) {
 
 function isCompleted(f) {
   const r = f.result || {};
-  return r.status === 'confirmed' && r.ourScore != null && r.theirScore != null;
+  return (r.status === 'confirmed' || r.status === 'defaulted') && r.ourScore != null && r.theirScore != null;
+}
+
+function isDefaulted(f) {
+  return (f.result || {}).status === 'defaulted';
 }
 
 function isUpcoming(f) {
@@ -169,7 +173,8 @@ function renderOverview(data) {
   if (last) {
     const opp = opponentName(last);
     const cls = resultClass(last);
-    const label = cls === 'win' ? 'Win' : cls === 'loss' ? 'Loss' : 'Draw';
+    const defaultSuffix = isDefaulted(last) ? ' (Default)' : '';
+    const label = (cls === 'win' ? 'Win' : cls === 'loss' ? 'Loss' : 'Draw') + defaultSuffix;
     lastEl.innerHTML = `
       <div class="match-summary">
         <div>
@@ -225,12 +230,12 @@ function fixtureRow(f, isNext) {
   const homeScore = f.isHome ? f.result?.ourScore : f.result?.theirScore;
   const awayScore = f.isHome ? f.result?.theirScore : f.result?.ourScore;
   const score = isCompleted(f)
-    ? `<span class="score-pill ${cls}">${homeScore} – ${awayScore}</span>`
+    ? `<span class="score-pill ${cls}">${homeScore} – ${awayScore}</span>${isDefaulted(f) ? '<div class="default-label">Default</div>' : ''}`
     : `<span class="muted">vs</span>`;
   const tag = isNext
     ? `<div class="next-tag upcoming">Next</div>`
     : isCompleted(f)
-      ? `<div class="next-tag">Result</div>`
+      ? `<div class="next-tag">${isDefaulted(f) ? 'Default' : 'Result'}</div>`
       : `<div class="next-tag">Upcoming</div>`;
 
   // Scorers/squad/ref/notes
