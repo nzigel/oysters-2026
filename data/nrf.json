@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T05:03:15.839Z",
+  "updated": "2026-05-09T01:11:29.992Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -7,14 +7,14 @@
   "table": [
     {
       "team": "Warkworth FC : Oysters",
-      "played": 3,
-      "won": 3,
+      "played": 4,
+      "won": 4,
       "drawn": 0,
       "lost": 0,
-      "gf": 12,
+      "gf": 15,
       "ga": 4,
-      "gd": 8,
-      "points": 9
+      "gd": 11,
+      "points": 12
     },
     {
       "team": "Hibiscus Coast AFC : Knights",
@@ -84,13 +84,13 @@
     },
     {
       "team": "East Coast Bays A.F.C : Ally Pally",
-      "played": 3,
+      "played": 4,
       "won": 1,
       "drawn": 0,
-      "lost": 2,
+      "lost": 3,
       "gf": 11,
-      "ga": 13,
-      "gd": -2,
+      "ga": 16,
+      "gd": -5,
       "points": 3
     },
     {
@@ -118,118 +118,8 @@
   ],
   "fixtures": [
     {
-      "id": 6301603,
-      "kind": "result",
-      "date": "2026-05-02T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 3",
-      "home": {
-        "team": "Craigs Ski Troopers",
-        "club": "Northern Rovers FC"
-      },
-      "away": {
-        "team": "Coast Thunder",
-        "club": "Hibiscus Coast AFC"
-      },
-      "venue": "McFetridge Park: Field 3",
-      "venueAddress": "Mcfetridge Park",
-      "officials": null,
-      "homeScore": 17,
-      "awayScore": 0,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301604,
-      "kind": "result",
-      "date": "2026-05-02T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 3",
-      "home": {
-        "team": "Knights",
-        "club": "Hibiscus Coast AFC"
-      },
-      "away": {
-        "team": "Cyclones",
-        "club": "Rodney District Sports Club"
-      },
-      "venue": "Stanmore Bay Park: Field 2",
-      "venueAddress": "Stanmore Bay Park",
-      "officials": null,
-      "homeScore": 5,
-      "awayScore": 2,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301607,
-      "kind": "result",
-      "date": "2026-05-02T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 3",
-      "home": {
-        "team": "Hardheads",
-        "club": "Greenhithe Roaring 40s Sports Club"
-      },
-      "away": {
-        "team": "Ally Pally",
-        "club": "East Coast Bays A.F.C"
-      },
-      "venue": "Greenhithe War Memorial Park: Field 1",
-      "venueAddress": "Greenhithe War Memorial Park",
-      "officials": null,
-      "homeScore": 3,
-      "awayScore": 5,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301605,
-      "kind": "result",
-      "date": "2026-05-02T15:00:00",
-      "section": "Section A",
-      "round": "ROUND 3",
-      "home": {
-        "team": "Oysters",
-        "club": "Warkworth FC"
-      },
-      "away": {
-        "team": "Birkenheadaches",
-        "club": "Birkenhead United AFC"
-      },
-      "venue": "Shoesmith Domain: Field 2",
-      "venueAddress": "Shoesmith Domain",
-      "officials": null,
-      "homeScore": 5,
-      "awayScore": 1,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301606,
-      "kind": "result",
-      "date": "2026-05-02T15:00:00",
-      "section": "Section A",
-      "round": "ROUND 3",
-      "home": {
-        "team": "Buyusabeer",
-        "club": "Birkenhead United AFC"
-      },
-      "away": {
-        "team": "Nephews",
-        "club": "Rodney District Sports Club"
-      },
-      "venue": "Onepoto Domain: Field 1",
-      "venueAddress": "Onepoto Domain",
-      "officials": null,
-      "homeScore": 5,
-      "awayScore": 0,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
       "id": 6301608,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-05-09T13:00:00",
       "section": "Section A",
       "round": "ROUND 4",
@@ -251,7 +141,7 @@
     },
     {
       "id": 6301609,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-05-09T13:00:00",
       "section": "Section A",
       "round": "ROUND 4",
@@ -273,7 +163,7 @@
     },
     {
       "id": 6301610,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-05-09T13:00:00",
       "section": "Section A",
       "round": "ROUND 4",
@@ -295,7 +185,7 @@
     },
     {
       "id": 6301612,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-05-09T13:00:00",
       "section": "Section A",
       "round": "ROUND 4",
@@ -317,7 +207,7 @@
     },
     {
       "id": 6301611,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-05-09T15:15:00",
       "section": "Section A",
       "round": "ROUND 4",
@@ -329,12 +219,12 @@
         "team": "Oysters",
         "club": "Warkworth FC"
       },
-      "venue": "Bay City Park: Field 1",
-      "venueAddress": "Bay City Park",
+      "venue": "Unallocated",
+      "venueAddress": null,
       "officials": null,
       "homeScore": null,
       "awayScore": null,
-      "statusName": "Confirmed",
+      "statusName": "Defaulted",
       "publicNotes": null
     }
   ],
