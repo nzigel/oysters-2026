@@ -55,6 +55,22 @@ function run() {
       warnings.push(`Schedule change: ${opponent} season=${sf.date} nrf=${nrfDate} (not auto-applied)`);
     }
 
+    // Handle defaulted matches: 3-0 awarded to the non-defaulting team
+    if (f.statusName === 'Defaulted' && f.homeScore == null && f.awayScore == null) {
+      sf.result = sf.result || {};
+      const before = {
+        status: sf.result.status,
+        ourScore: sf.result.ourScore,
+        theirScore: sf.result.theirScore,
+      };
+      // Default = loss for the team that withdrew; NRF doesn't say which side,
+      // but the table awards 3-0 to the winner. Check if the table GF increased
+      // by 3 relative to our tracked scores — if so, we won by default.
+      // For safety, flag it so a human confirms which side defaulted.
+      warnings.push(`Defaulted: ${opponent} on ${nrfDate} — update season.json manually with 3-0 win or 0-3 loss`);
+      continue;
+    }
+
     if (f.kind !== 'result' || f.homeScore == null || f.awayScore == null) continue;
 
     const ourScore = homeIsUs ? f.homeScore : f.awayScore;

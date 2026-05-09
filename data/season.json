@@ -254,29 +254,14 @@
       "opponentClub": "East Coast Bays A.F.C",
       "isHome": false,
       "result": {
-        "status": "scheduled",
-        "ourScore": null,
-        "theirScore": null,
+        "status": "confirmed",
+        "ourScore": 3,
+        "theirScore": 0,
         "scorers": [],
-        "selectedSquad": [
-          "Paul Hamblett",
-          "Tim Baker",
-          "Caleb Paxton-Penman",
-          "Simon Hartley",
-          "Nigel Parker",
-          "Temataake Bwauro",
-          "GaiTuiteran Takaatu",
-          "Mohammed Khan",
-          "Dane Awatea Vazey",
-          "Keegan Petersen",
-          "Jake White",
-          "Isaac Lee",
-          "Oscar",
-          "Sam Williamson"
-        ],
+        "selectedSquad": [],
         "referee": null,
-        "notes": "Unavailable: Mark Reekie, Treye Liu.",
-        "goalkeeper": "Jake White"
+        "notes": "Win by default — opponent withdrew.",
+        "goalkeeper": null
       }
     },
     {
