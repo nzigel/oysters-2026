@@ -95,7 +95,7 @@
     },
     {
       "number": 22,
-      "name": "Oscar"
+      "name": "Oscar O'Brien"
     }
   ],
   "fixtures": [
@@ -278,9 +278,27 @@
         "ourScore": null,
         "theirScore": null,
         "scorers": [],
-        "selectedSquad": [],
-        "referee": null,
-        "notes": "",
+        "selectedSquad": [
+          "Mark Reekie",
+          "Jake White",
+          "Michael Sweeney",
+          "Sam Williamson",
+          "Mohammed Khan",
+          "Temataake Bwauro",
+          "GaiTuiteran Takaatu",
+          "Caleb Paxton-Penman",
+          "Treye Liu",
+          "Oscar O'Brien",
+          "Paul Hamblett",
+          "Tim Baker",
+          "Dane Awatea Vazey",
+          "Simon Hartley",
+          "Isaac Lee",
+          "Keegan Petersen",
+          "Nigel Parker"
+        ],
+        "referee": "Tim Baker",
+        "notes": "Mark Reekie arriving late. No captain assigned.",
         "goalkeeper": "Jake White"
       }
     },
