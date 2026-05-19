@@ -274,12 +274,12 @@
       "opponentClub": "Birkenhead United",
       "isHome": true,
       "result": {
-        "status": "scheduled",
-        "ourScore": null,
-        "theirScore": null,
+        "status": "confirmed",
+        "ourScore": 0,
+        "theirScore": 1,
         "scorers": [],
         "selectedSquad": [
-          "Mark Reekie",
+          "Nigel Parker",
           "Jake White",
           "Michael Sweeney",
           "Sam Williamson",
@@ -288,17 +288,15 @@
           "GaiTuiteran Takaatu",
           "Caleb Paxton-Penman",
           "Treye Liu",
-          "Oscar O'Brien",
           "Paul Hamblett",
           "Tim Baker",
           "Dane Awatea Vazey",
-          "Simon Hartley",
-          "Isaac Lee",
           "Keegan Petersen",
-          "Nigel Parker"
+          "Isaac Lee",
+          "Betiraoi Æ Lpú Tebarine"
         ],
-        "referee": "Tim Baker",
-        "notes": "Mark Reekie arriving late. No captain assigned.",
+        "referee": null,
+        "notes": "No referee assigned.",
         "goalkeeper": "Jake White"
       }
     },
