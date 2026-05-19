@@ -266,6 +266,7 @@ function fixtureRow(f, isNext) {
         <div class="center-score">${score}</div>
         <div class="team-away"><strong>${escapeHtml(f.away)}</strong>${f.isHome ? ` <span class="muted">(${escapeHtml(f.opponentClub)})</span>` : ''}</div>
         ${tag}
+        <div class="fixture-meta"><span class="ha-label ${f.isHome ? 'home' : 'away'}">${f.isHome ? 'Home' : 'Away'}</span> ${venueHtml(f)}</div>
       </summary>
       <div class="detail">
         <div class="detail-block">
