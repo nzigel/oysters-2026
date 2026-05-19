@@ -173,6 +173,28 @@ main { padding: 1.5rem 0 3rem; }
 }
 .fixture .next-tag.upcoming { color: var(--accent); font-weight: 600; }
 
+.fixture .fixture-meta {
+  grid-column: 1 / -1;
+  font-size: 0.82rem;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  padding-top: 0.5rem;
+  margin-top: 0.15rem;
+}
+.ha-label {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  margin-right: 0.35rem;
+  vertical-align: middle;
+}
+.ha-label.home { background: #e7f0fa; color: var(--accent); }
+.ha-label.away { background: #f3f0fa; color: #6b4fa0; }
+
 .fixture .detail {
   padding: 1rem 1.25rem 1.25rem;
   background: #fafbfc;
