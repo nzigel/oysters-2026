@@ -314,7 +314,22 @@
         "ourScore": null,
         "theirScore": null,
         "scorers": [],
-        "selectedSquad": [],
+        "selectedSquad": [
+          "Sam Williamson",
+          "Treye Liu",
+          "Caleb Paxton-Penman",
+          "Nigel Parker",
+          "Tęŋ Sŭŋ Qŭịcƙ Tebarine (Raooiiti)",
+          "Temataake Bwauro",
+          "Paul Hamblett",
+          "Bureitabonini Toobwai (Tauro)",
+          "Isaac Lee",
+          "Simon Hartley",
+          "Michael Sweeney",
+          "Dane Awatea Vazey",
+          "Keegan Petersen",
+          "Patrick Goodfellow"
+        ],
         "referee": null,
         "notes": "",
         "goalkeeper": "Jake White"
