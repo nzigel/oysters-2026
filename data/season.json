@@ -313,9 +313,30 @@
         "status": "confirmed",
         "ourScore": 1,
         "theirScore": 4,
-        "scorers": [],
-        "selectedSquad": [],
-        "referee": null,
+        "scorers": [
+          {
+            "player": "Caleb Paxton-Penman",
+            "goals": 1
+          }
+        ],
+        "selectedSquad": [
+          "Sam Williamson",
+          "Treye Liu",
+          "Caleb Paxton-Penman",
+          "Nigel Parker",
+          "Tęŋ Sŭŋ Qŭịcƙ Tebarine (Raooiiti)",
+          "Temataake Bwauro",
+          "Paul Hamblett",
+          "Bureitabonini Toobwai (Tauro)",
+          "Isaac Lee",
+          "Simon Hartley",
+          "Michael Sweeney",
+          "Dane Awatea Vazey",
+          "Keegan Petersen",
+          "Patrick Goodfellow",
+          "Betiraoi Æ Lpú Tebarine"
+        ],
+        "referee": "Tim Baker",
         "notes": "",
         "goalkeeper": "Jake White"
       }
