@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T07:06:48.215Z",
+  "updated": "2026-06-05T18:52:52.398Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -224,6 +224,116 @@
       "officials": null,
       "homeScore": 1,
       "awayScore": 4,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301623,
+      "kind": "upcoming",
+      "date": "2026-06-06T13:00:00",
+      "section": "Section A",
+      "round": "ROUND 7",
+      "home": {
+        "team": "Craigs Ski Troopers",
+        "club": "Northern Rovers FC"
+      },
+      "away": {
+        "team": "Ally Pally",
+        "club": "East Coast Bays A.F.C"
+      },
+      "venue": "McFetridge Park: Field 1",
+      "venueAddress": "Mcfetridge Park",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301624,
+      "kind": "upcoming",
+      "date": "2026-06-06T13:00:00",
+      "section": "Section A",
+      "round": "ROUND 7",
+      "home": {
+        "team": "Nephews",
+        "club": "Rodney District Sports Club"
+      },
+      "away": {
+        "team": "Hardheads",
+        "club": "Greenhithe Roaring 40s Sports Club"
+      },
+      "venue": "Metro Park: Field 2",
+      "venueAddress": "Millwater Parkway, Silverdale, Auckland, 0932",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301625,
+      "kind": "upcoming",
+      "date": "2026-06-06T13:00:00",
+      "section": "Section A",
+      "round": "ROUND 7",
+      "home": {
+        "team": "Birkenheadaches",
+        "club": "Birkenhead United AFC"
+      },
+      "away": {
+        "team": "Buyusabeer",
+        "club": "Birkenhead United AFC"
+      },
+      "venue": "Shepherds Park: Field 3",
+      "venueAddress": "Shepherds Park",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301627,
+      "kind": "upcoming",
+      "date": "2026-06-06T13:00:00",
+      "section": "Section A",
+      "round": "ROUND 7",
+      "home": {
+        "team": "Coast Thunder",
+        "club": "Hibiscus Coast AFC"
+      },
+      "away": {
+        "team": "Knights",
+        "club": "Hibiscus Coast AFC"
+      },
+      "venue": "Stanmore Bay Park: Field 2",
+      "venueAddress": "Stanmore Bay Park",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301626,
+      "kind": "upcoming",
+      "date": "2026-06-06T15:10:00",
+      "section": "Section A",
+      "round": "ROUND 7",
+      "home": {
+        "team": "Cyclones",
+        "club": "Rodney District Sports Club"
+      },
+      "away": {
+        "team": "Oysters",
+        "club": "Warkworth FC"
+      },
+      "venue": "Metro Park: Field 3",
+      "venueAddress": "Millwater Parkway, Silverdale, Auckland, 0932",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
       "statusName": "Confirmed",
       "publicNotes": null
     }
