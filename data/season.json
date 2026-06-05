@@ -96,6 +96,10 @@
     {
       "number": 22,
       "name": "Oscar O'Brien"
+    },
+    {
+      "number": 23,
+      "name": "Tauro Tiaon"
     }
   ],
   "fixtures": [
@@ -355,7 +359,24 @@
         "ourScore": null,
         "theirScore": null,
         "scorers": [],
-        "selectedSquad": [],
+        "selectedSquad": [
+          "Jake White",
+          "Paul Hamblett",
+          "Sam Williamson",
+          "Caleb Paxton-Penman",
+          "Simon Hartley",
+          "Nigel Parker",
+          "Mohammed Khan",
+          "Tęŋ Sŭŋ Qŭịcƙ Tebarine (Raooiiti)",
+          "Bureitabonini Toobwai (Tauro)",
+          "Keegan Petersen",
+          "Tauro Tiaon",
+          "Dane Awatea Vazey",
+          "Jimmy Bowens",
+          "Isaac Lee",
+          "Oscar O'Brien",
+          "Temataake Bwauro"
+        ],
         "referee": null,
         "notes": "",
         "goalkeeper": "Jake White"
