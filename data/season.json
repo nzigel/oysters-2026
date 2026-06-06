@@ -353,10 +353,27 @@
       "opponentClub": "Rodney District Sports Club",
       "isHome": false,
       "result": {
-        "status": "scheduled",
-        "ourScore": null,
-        "theirScore": null,
-        "scorers": [],
+        "status": "confirmed",
+        "ourScore": 5,
+        "theirScore": 2,
+        "scorers": [
+          {
+            "player": "Betiraoi Æ Lpú Tebarine",
+            "goals": 1
+          },
+          {
+            "player": "Nigel Parker",
+            "goals": 1
+          },
+          {
+            "player": "Jimmy Bowens",
+            "goals": 2
+          },
+          {
+            "player": "Paul Hamblett",
+            "goals": 1
+          }
+        ],
         "selectedSquad": [
           "Jake White",
           "Paul Hamblett",
@@ -373,10 +390,11 @@
           "Jimmy Bowens",
           "Isaac Lee",
           "Oscar O'Brien",
-          "Temataake Bwauro"
+          "Temataake Bwauro",
+          "Betiraoi Æ Lpú Tebarine"
         ],
-        "referee": null,
-        "notes": "",
+        "referee": "Jimmy Bowens",
+        "notes": "Jimmy refereed first half.",
         "goalkeeper": "Jake White"
       }
     },
