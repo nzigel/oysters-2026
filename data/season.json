@@ -58,7 +58,7 @@
     },
     {
       "number": 13,
-      "name": "Tęŋ Sŭŋ Qŭịcƙ Tebarine (Raooiiti)"
+      "name": "Tęŋ Sŭŋ Qŭịcƙ Tebarine"
     },
     {
       "number": 14,
@@ -91,7 +91,7 @@
     },
     {
       "number": 21,
-      "name": "Bureitabonini Toobwai"
+      "name": "Bureitabonini Toobwai (Raoiti)"
     },
     {
       "number": 22,
@@ -140,8 +140,8 @@
           "Patrick Goodfellow",
           "Tim Baker",
           "Betiraoi Æ Lpú Tebarine",
-          "Tęŋ Sŭŋ Qŭịcƙ Tebarine (Raooiiti)",
-          "Bureitabonini Toobwai",
+          "Tęŋ Sŭŋ Qŭịcƙ Tebarine",
+          "Bureitabonini Toobwai (Raoiti)",
           "Sam Williamson"
         ],
         "referee": "Caleb Paxton-Penman",
@@ -176,7 +176,7 @@
           "Simon Hartley",
           "Temataake Bwauro",
           "Betiraoi Æ Lpú Tebarine",
-          "Tęŋ Sŭŋ Qŭịcƙ Tebarine (Raooiiti)",
+          "Tęŋ Sŭŋ Qŭịcƙ Tebarine",
           "GaiTuiteran Takaatu",
           "Keegan Petersen",
           "Sam Williamson",
@@ -214,7 +214,7 @@
             "goals": 1
           },
           {
-            "player": "Tęŋ Sŭŋ Qŭịcƙ Tebarine (Raooiiti)",
+            "player": "Tęŋ Sŭŋ Qŭịcƙ Tebarine",
             "goals": 1
           },
           {
@@ -235,7 +235,7 @@
           "Temataake Bwauro",
           "Treye Liu",
           "Betiraoi Æ Lpú Tebarine",
-          "Tęŋ Sŭŋ Qŭịcƙ Tebarine (Raooiiti)",
+          "Tęŋ Sŭŋ Qŭịcƙ Tebarine",
           "Dane Awatea Vazey",
           "Nigel Parker",
           "Patrick Goodfellow",
@@ -329,7 +329,7 @@
           "Caleb Paxton-Penman",
           "Nigel Parker",
           "Paul Hamblett",
-          "Bureitabonini Toobwai",
+          "Bureitabonini Toobwai (Raoiti)",
           "Isaac Lee",
           "Simon Hartley",
           "Michael Sweeney",
@@ -382,8 +382,8 @@
           "Simon Hartley",
           "Nigel Parker",
           "Mohammed Khan",
-          "Tęŋ Sŭŋ Qŭịcƙ Tebarine (Raooiiti)",
-          "Bureitabonini Toobwai",
+          "Tęŋ Sŭŋ Qŭịcƙ Tebarine",
+          "Bureitabonini Toobwai (Raoiti)",
           "Keegan Petersen",
           "Tauro Tiaon",
           "Dane Awatea Vazey",
@@ -413,7 +413,7 @@
         "theirScore": null,
         "scorers": [],
         "selectedSquad": [
-          "Tęŋ Sŭŋ Qŭịcƙ Tebarine (Raooiiti)",
+          "Bureitabonini Toobwai (Raoiti)",
           "Temataake Bwauro",
           "Jimmy Bowens",
           "Mohammed Khan",
