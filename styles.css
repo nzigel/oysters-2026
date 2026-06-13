@@ -287,7 +287,8 @@ table.data tr:last-child td { border-bottom: none; }
   align-items: center;
 }
 .player .ref-band,
-.player .app-band {
+.player .app-band,
+.player .goal-band {
   display: inline-flex;
   align-items: center;
   justify-content: center;
