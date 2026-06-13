@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   scrape:
@@ -22,11 +23,26 @@ jobs:
       - name: Scrape NRF data
         run: node scripts/scrape-nrf.js
 
-      - name: Push to main if changed
+      - name: Create PR and merge if changed
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git diff --quiet data/nrf.json && exit 0
+
+          # Close any stale auto-update PRs to avoid conflicts
+          gh pr list --state open --head "auto/nrf-update" --json number --jq '.[].number' \
+            | xargs -I{} gh pr close {} --comment "Superseded by newer scrape." 2>/dev/null || true
+
+          BRANCH="auto/nrf-update-$(date -u +%Y%m%d-%H%M)"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
           git add data/nrf.json
           git commit -m "chore: update NRF data $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push origin main
+          git push -u origin "$BRANCH"
+          gh pr create \
+            --title "chore: update NRF data $(date -u +%Y-%m-%dT%H:%MZ)" \
+            --body "Automated NRF data scrape." \
+            --base main
+          sleep 5
+          gh pr merge "$BRANCH" --squash --admin
