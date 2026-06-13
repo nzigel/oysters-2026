@@ -401,7 +401,7 @@ function renderAppearances(data) {
   data.squad.forEach(p => tally[p.name] = 0);
   let confirmedGames = 0;
   data.fixtures.forEach(f => {
-    if (!isCompleted(f)) return;
+    if (!isCompleted(f) || isDefaulted(f)) return;
     confirmedGames++;
     (f.result.selectedSquad || []).forEach(name => {
       tally[name] = (tally[name] || 0) + 1;
