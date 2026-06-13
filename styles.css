@@ -280,20 +280,32 @@ table.data tr:last-child td { border-bottom: none; }
 }
 .player a { color: inherit; text-decoration: none; }
 .player a:hover { text-decoration: underline; }
-.player .ref-band {
+.player-badges {
   margin-left: auto;
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+.player .ref-band,
+.player .app-band {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   min-width: 22px;
   height: 22px;
   padding: 0 0.4rem;
-  background: #fcf2d4;
-  color: #8a6d00;
   border-radius: 999px;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.02em;
+}
+.player .ref-band {
+  background: #fcf2d4;
+  color: #8a6d00;
+}
+.player .app-band {
+  background: var(--accent-soft);
+  color: var(--accent);
 }
 
 a { color: var(--accent); }

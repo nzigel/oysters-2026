@@ -39,13 +39,25 @@ async function init() {
 
 function setupTabs() {
   const tabs = document.querySelectorAll('.tab');
+  function activateTab(name) {
+    const target = document.querySelector(`.tab[data-tab="${name}"]`);
+    if (!target) return;
+    tabs.forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    target.classList.add('active');
+    document.getElementById('tab-' + name).classList.add('active');
+  }
   tabs.forEach(tab => {
     tab.addEventListener('click', () => {
-      tabs.forEach(t => t.classList.remove('active'));
-      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-      tab.classList.add('active');
-      document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+      activateTab(tab.dataset.tab);
+      history.replaceState(null, '', '#' + tab.dataset.tab);
     });
+  });
+  const hash = location.hash.replace('#', '');
+  if (hash) activateTab(hash);
+  window.addEventListener('hashchange', () => {
+    const h = location.hash.replace('#', '');
+    if (h) activateTab(h);
   });
 }
 
@@ -423,19 +435,33 @@ function renderAppearances(data) {
 }
 
 function renderSquad(data) {
-  const referees = new Set(
-    data.fixtures
-      .map(f => f.result && f.result.referee)
-      .filter(Boolean)
-  );
+  const referees = new Set();
+  data.fixtures.forEach(f => {
+    const r = f.result || {};
+    if (r.referee) referees.add(r.referee);
+    if (r.notes) {
+      data.squad.forEach(p => {
+        if (r.notes.includes(p.name) && /referee/i.test(r.notes)) referees.add(p.name);
+      });
+    }
+  });
+  const apps = {};
+  data.fixtures.forEach(f => {
+    if (!isCompleted(f) || isDefaulted(f)) return;
+    (f.result.selectedSquad || []).forEach(name => {
+      apps[name] = (apps[name] || 0) + 1;
+    });
+  });
   const html = data.squad.map(p => {
     const hasReffed = p.preseasonRef || referees.has(p.name);
-    const badge = hasReffed ? `<span class="ref-band" title="Has refereed this season">R</span>` : '';
+    const refBadge = hasReffed ? `<span class="ref-band" title="Has refereed this season">R</span>` : '';
+    const count = apps[p.name] || 0;
+    const appBadge = `<span class="app-band" title="Appearances">${count}</span>`;
     return `
     <div class="player">
       <span class="num">${p.number}</span>
       <span>${escapeHtml(p.name)}</span>
-      ${badge}
+      <span class="player-badges">${appBadge}${refBadge}</span>
     </div>`;
   }).join('');
   document.getElementById('squad-list').innerHTML = html;
