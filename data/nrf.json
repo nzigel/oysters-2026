@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T02:50:08.436Z",
+  "updated": "2026-06-13T08:14:42.622Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -7,13 +7,13 @@
   "table": [
     {
       "team": "Greenhithe Roaring 40s Sports Club : Hardheads",
-      "played": 7,
+      "played": 8,
       "won": 6,
       "drawn": 0,
-      "lost": 1,
-      "gf": 45,
-      "ga": 16,
-      "gd": 29,
+      "lost": 2,
+      "gf": 48,
+      "ga": 23,
+      "gd": 25,
       "points": 18
     },
     {
@@ -29,13 +29,24 @@
     },
     {
       "team": "Hibiscus Coast AFC : Knights",
-      "played": 7,
-      "won": 4,
+      "played": 8,
+      "won": 5,
       "drawn": 1,
       "lost": 2,
-      "gf": 28,
-      "ga": 15,
-      "gd": 13,
+      "gf": 31,
+      "ga": 16,
+      "gd": 15,
+      "points": 16
+    },
+    {
+      "team": "Rodney District Sports Club : Cyclones",
+      "played": 8,
+      "won": 4,
+      "drawn": 1,
+      "lost": 3,
+      "gf": 29,
+      "ga": 19,
+      "gd": 10,
       "points": 13
     },
     {
@@ -61,26 +72,15 @@
       "points": 12
     },
     {
-      "team": "Rodney District Sports Club : Cyclones",
-      "played": 7,
-      "won": 3,
-      "drawn": 1,
-      "lost": 3,
-      "gf": 20,
-      "ga": 19,
-      "gd": 1,
-      "points": 10
-    },
-    {
       "team": "Northern Rovers : Craigs Ski Troopers",
-      "played": 7,
-      "won": 2,
+      "played": 8,
+      "won": 3,
       "drawn": 2,
       "lost": 3,
-      "gf": 27,
-      "ga": 13,
-      "gd": 14,
-      "points": 8
+      "gf": 34,
+      "ga": 16,
+      "gd": 18,
+      "points": 11
     },
     {
       "team": "East Coast Bays A.F.C : Ally Pally",
@@ -95,24 +95,24 @@
     },
     {
       "team": "Birkenhead United : Birkenheadaches",
-      "played": 7,
+      "played": 8,
       "won": 2,
       "drawn": 0,
-      "lost": 5,
-      "gf": 18,
-      "ga": 29,
-      "gd": -11,
+      "lost": 6,
+      "gf": 19,
+      "ga": 32,
+      "gd": -13,
       "points": 6
     },
     {
       "team": "Hibiscus Coast AFC : Coast Thunder",
-      "played": 7,
+      "played": 8,
       "won": 1,
       "drawn": 0,
-      "lost": 6,
+      "lost": 7,
       "gf": 5,
-      "ga": 64,
-      "gd": -59,
+      "ga": 73,
+      "gd": -68,
       "points": 3
     }
   ],
@@ -134,8 +134,8 @@
       "venue": "Greenhithe War Memorial Park: Field 1",
       "venueAddress": "Greenhithe War Memorial Park",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 3,
+      "awayScore": 7,
       "statusName": "Confirmed",
       "publicNotes": null
     },
@@ -200,8 +200,8 @@
       "venue": "Stanmore Bay Park: Field 2",
       "venueAddress": "Stanmore Bay Park",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 3,
+      "awayScore": 1,
       "statusName": "Confirmed",
       "publicNotes": null
     },
@@ -222,8 +222,8 @@
       "venue": "Stanmore Bay Park: Field 3a",
       "venueAddress": "Stanmore Bay Park",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 9,
       "statusName": "Confirmed",
       "publicNotes": null
     }
