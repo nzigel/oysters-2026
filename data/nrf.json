@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-12T18:55:59.248Z",
+  "updated": "2026-06-13T02:50:08.436Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -18,14 +18,14 @@
     },
     {
       "team": "Warkworth FC : Oysters",
-      "played": 7,
-      "won": 5,
+      "played": 8,
+      "won": 6,
       "drawn": 0,
       "lost": 2,
-      "gf": 21,
-      "ga": 11,
-      "gd": 10,
-      "points": 15
+      "gf": 24,
+      "ga": 12,
+      "gd": 12,
+      "points": 18
     },
     {
       "team": "Hibiscus Coast AFC : Knights",
@@ -40,24 +40,24 @@
     },
     {
       "team": "Rodney District Sports Club : Nephews",
-      "played": 7,
+      "played": 8,
       "won": 4,
       "drawn": 1,
-      "lost": 2,
-      "gf": 25,
-      "ga": 21,
-      "gd": 4,
+      "lost": 3,
+      "gf": 26,
+      "ga": 24,
+      "gd": 2,
       "points": 13
     },
     {
       "team": "Birkenhead United : Buyusabeer",
-      "played": 7,
+      "played": 8,
       "won": 4,
       "drawn": 0,
-      "lost": 3,
+      "lost": 4,
       "gf": 23,
-      "ga": 15,
-      "gd": 8,
+      "ga": 21,
+      "gd": 2,
       "points": 12
     },
     {
@@ -83,6 +83,17 @@
       "points": 8
     },
     {
+      "team": "East Coast Bays A.F.C : Ally Pally",
+      "played": 8,
+      "won": 2,
+      "drawn": 1,
+      "lost": 5,
+      "gf": 24,
+      "ga": 27,
+      "gd": -3,
+      "points": 7
+    },
+    {
       "team": "Birkenhead United : Birkenheadaches",
       "played": 7,
       "won": 2,
@@ -92,17 +103,6 @@
       "ga": 29,
       "gd": -11,
       "points": 6
-    },
-    {
-      "team": "East Coast Bays A.F.C : Ally Pally",
-      "played": 7,
-      "won": 1,
-      "drawn": 1,
-      "lost": 5,
-      "gf": 18,
-      "ga": 27,
-      "gd": -9,
-      "points": 4
     },
     {
       "team": "Hibiscus Coast AFC : Coast Thunder",
@@ -118,118 +118,8 @@
   ],
   "fixtures": [
     {
-      "id": 6301623,
-      "kind": "result",
-      "date": "2026-06-06T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 7",
-      "home": {
-        "team": "Craigs Ski Troopers",
-        "club": "Northern Rovers FC"
-      },
-      "away": {
-        "team": "Ally Pally",
-        "club": "East Coast Bays A.F.C"
-      },
-      "venue": "McFetridge Park: Field 1",
-      "venueAddress": "Mcfetridge Park",
-      "officials": null,
-      "homeScore": 4,
-      "awayScore": 4,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301624,
-      "kind": "result",
-      "date": "2026-06-06T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 7",
-      "home": {
-        "team": "Nephews",
-        "club": "Rodney District Sports Club"
-      },
-      "away": {
-        "team": "Hardheads",
-        "club": "Greenhithe Roaring 40s Sports Club"
-      },
-      "venue": "Metro Park: Field 2",
-      "venueAddress": "Millwater Parkway, Silverdale, Auckland, 0932",
-      "officials": null,
-      "homeScore": 4,
-      "awayScore": 5,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301625,
-      "kind": "result",
-      "date": "2026-06-06T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 7",
-      "home": {
-        "team": "Birkenheadaches",
-        "club": "Birkenhead United AFC"
-      },
-      "away": {
-        "team": "Buyusabeer",
-        "club": "Birkenhead United AFC"
-      },
-      "venue": "Shepherds Park: Field 3",
-      "venueAddress": "Shepherds Park",
-      "officials": null,
-      "homeScore": 2,
-      "awayScore": 4,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301627,
-      "kind": "result",
-      "date": "2026-06-06T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 7",
-      "home": {
-        "team": "Coast Thunder",
-        "club": "Hibiscus Coast AFC"
-      },
-      "away": {
-        "team": "Knights",
-        "club": "Hibiscus Coast AFC"
-      },
-      "venue": "Stanmore Bay Park: Field 2",
-      "venueAddress": "Stanmore Bay Park",
-      "officials": null,
-      "homeScore": 0,
-      "awayScore": 10,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301626,
-      "kind": "result",
-      "date": "2026-06-06T15:10:00",
-      "section": "Section A",
-      "round": "ROUND 7",
-      "home": {
-        "team": "Cyclones",
-        "club": "Rodney District Sports Club"
-      },
-      "away": {
-        "team": "Oysters",
-        "club": "Warkworth FC"
-      },
-      "venue": "Metro Park: Field 3",
-      "venueAddress": "Millwater Parkway, Silverdale, Auckland, 0932",
-      "officials": null,
-      "homeScore": 2,
-      "awayScore": 5,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
       "id": 6301628,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-06-13T13:00:00",
       "section": "Section A",
       "round": "ROUND 8",
@@ -251,7 +141,7 @@
     },
     {
       "id": 6301629,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-06-13T13:00:00",
       "section": "Section A",
       "round": "ROUND 8",
@@ -266,14 +156,14 @@
       "venue": "Greville Reserve - Turf: Field 1",
       "venueAddress": "Greville Reserve",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 6,
       "statusName": "Confirmed",
       "publicNotes": null
     },
     {
       "id": 6301630,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-06-13T13:00:00",
       "section": "Section A",
       "round": "ROUND 8",
@@ -288,14 +178,14 @@
       "venue": "Shoesmith Domain: Field 1a",
       "venueAddress": "Shoesmith Domain",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 3,
+      "awayScore": 1,
       "statusName": "Confirmed",
       "publicNotes": null
     },
     {
       "id": 6301631,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-06-13T13:00:00",
       "section": "Section A",
       "round": "ROUND 8",
@@ -317,7 +207,7 @@
     },
     {
       "id": 6301632,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-06-13T13:00:00",
       "section": "Section A",
       "round": "ROUND 8",
