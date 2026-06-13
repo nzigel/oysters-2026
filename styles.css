@@ -307,6 +307,10 @@ table.data tr:last-child td { border-bottom: none; }
   background: var(--accent-soft);
   color: var(--accent);
 }
+.player .goal-band {
+  background: #e6f4ea;
+  color: var(--win);
+}
 
 a { color: var(--accent); }
 
