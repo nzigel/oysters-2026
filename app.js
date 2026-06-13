@@ -33,7 +33,7 @@ async function init() {
   // Load NRF live data (non-blocking)
   fetch('data/nrf.json', { cache: 'no-cache' })
     .then(r => r.ok ? r.json() : null)
-    .then(nrf => nrf && renderLeagueTable(nrf))
+    .then(nrf => { if (nrf) { renderLeagueTable(nrf); renderLatestResults(nrf); } })
     .catch(() => {});
 }
 
@@ -219,9 +219,12 @@ function stat(value, label) {
 }
 
 function renderFixtures(data) {
-  const fixtures = data.fixtures.slice().sort((a,b) => a.date.localeCompare(b.date));
-  const nextId = (fixtures.find(isUpcoming) || {}).id;
-  const html = fixtures.map(f => fixtureRow(f, f.id === nextId)).join('');
+  const all = data.fixtures.slice();
+  const completed = all.filter(isCompleted).sort((a,b) => b.date.localeCompare(a.date));
+  const upcoming = all.filter(f => !isCompleted(f)).sort((a,b) => a.date.localeCompare(b.date));
+  const nextId = (upcoming[0] || {}).id;
+  const ordered = [...completed, ...upcoming];
+  const html = ordered.map(f => fixtureRow(f, f.id === nextId)).join('');
   document.getElementById('fixtures-list').innerHTML = html;
 }
 
@@ -514,6 +517,60 @@ function renderLeagueTable(nrf) {
     </div>
     ${nrf.error ? `<p class="muted" style="margin-top:1rem;">⚠ ${escapeHtml(nrf.error)}</p>` : ''}
   `;
+}
+
+function renderLatestResults(nrf) {
+  const updatedEl = document.getElementById('results-updated');
+  const listEl = document.getElementById('results-list');
+
+  if (nrf.updated) {
+    const d = new Date(nrf.updated);
+    updatedEl.textContent = `Last updated: ${d.toLocaleString('en-NZ', { dateStyle: 'medium', timeStyle: 'short' })}`;
+  }
+
+  if (!nrf.fixtures || nrf.fixtures.length === 0) {
+    listEl.innerHTML = `<p class="muted">No recent results available yet.</p>`;
+    return;
+  }
+
+  const byRound = {};
+  nrf.fixtures.forEach(f => {
+    const round = f.round || 'Unknown';
+    if (!byRound[round]) byRound[round] = [];
+    byRound[round].push(f);
+  });
+
+  const html = Object.entries(byRound).map(([round, fixtures]) => {
+    const date = fixtures[0].date ? new Date(fixtures[0].date).toLocaleDateString('en-NZ', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) : '';
+    const rows = fixtures.map(f => {
+      const hasScore = f.homeScore != null && f.awayScore != null;
+      const isUs = (f.home.team || '').toLowerCase().includes('oysters') || (f.away.team || '').toLowerCase().includes('oysters');
+      const rowClass = isUs ? 'highlight-row' : '';
+      const score = hasScore
+        ? `<strong>${f.homeScore} – ${f.awayScore}</strong>`
+        : `<span class="muted">TBC</span>`;
+      return `
+        <tr class="${rowClass}">
+          <td>${escapeHtml(f.home.team)}</td>
+          <td class="result-score">${score}</td>
+          <td>${escapeHtml(f.away.team)}</td>
+          <td class="muted">${escapeHtml(f.venue || '')}</td>
+        </tr>`;
+    }).join('');
+
+    return `
+      <h3>${escapeHtml(round)}${date ? ` <span class="muted">· ${date}</span>` : ''}</h3>
+      <div class="table-wrap">
+      <table class="data results-table">
+        <thead>
+          <tr><th>Home</th><th class="result-score">Score</th><th>Away</th><th>Venue</th></tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+      </div>`;
+  }).join('');
+
+  listEl.innerHTML = html;
 }
 
 init();

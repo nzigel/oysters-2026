@@ -299,3 +299,6 @@ table.data tr:last-child td { border-bottom: none; }
 a { color: var(--accent); }
 
 .highlight-row { background: #f0f7ff; font-weight: 500; }
+
+.results-table .result-score,
+.results-table th.result-score { text-align: center; }
