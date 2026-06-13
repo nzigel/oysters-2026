@@ -302,3 +302,4 @@ a { color: var(--accent); }
 
 .results-table .result-score,
 .results-table th.result-score { text-align: center; }
+.results-table td { white-space: normal; }

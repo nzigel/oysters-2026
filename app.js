@@ -551,10 +551,9 @@ function renderLatestResults(nrf) {
         : `<span class="muted">TBC</span>`;
       return `
         <tr class="${rowClass}">
-          <td>${escapeHtml(f.home.team)}</td>
+          <td>${escapeHtml(f.home.team)} <span class="ha-label home">H</span><br><span class="muted">${escapeHtml(f.home.club || '')}</span></td>
           <td class="result-score">${score}</td>
-          <td>${escapeHtml(f.away.team)}</td>
-          <td class="muted">${escapeHtml(f.venue || '')}</td>
+          <td>${escapeHtml(f.away.team)}<br><span class="muted">${escapeHtml(f.away.club || '')}</span></td>
         </tr>`;
     }).join('');
 
@@ -563,7 +562,7 @@ function renderLatestResults(nrf) {
       <div class="table-wrap">
       <table class="data results-table">
         <thead>
-          <tr><th>Home</th><th class="result-score">Score</th><th>Away</th><th>Venue</th></tr>
+          <tr><th>Home</th><th class="result-score">Score</th><th>Away</th></tr>
         </thead>
         <tbody>${rows}</tbody>
       </table>
