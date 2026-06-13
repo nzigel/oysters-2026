@@ -442,10 +442,14 @@ function renderSquad(data) {
     (r.referees || (r.referee ? [r.referee] : [])).forEach(name => referees.add(name));
   });
   const apps = {};
+  const goals = {};
   data.fixtures.forEach(f => {
     if (!isCompleted(f) || isDefaulted(f)) return;
     (f.result.selectedSquad || []).forEach(name => {
       apps[name] = (apps[name] || 0) + 1;
+    });
+    (f.result.scorers || []).forEach(s => {
+      goals[s.player] = (goals[s.player] || 0) + (s.goals || 1);
     });
   });
   const html = data.squad.map(p => {
@@ -453,11 +457,13 @@ function renderSquad(data) {
     const refBadge = hasReffed ? `<span class="ref-band" title="Has refereed this season">R</span>` : '';
     const count = apps[p.name] || 0;
     const appBadge = `<span class="app-band" title="Appearances">${count}</span>`;
+    const g = goals[p.name] || 0;
+    const goalBadge = g > 0 ? `<span class="goal-band" title="Goals scored">${g}</span>` : '';
     return `
     <div class="player">
       <span class="num">${p.number}</span>
       <span>${escapeHtml(p.name)}</span>
-      <span class="player-badges">${appBadge}${refBadge}</span>
+      <span class="player-badges">${appBadge}${goalBadge}${refBadge}</span>
     </div>`;
   }).join('');
   document.getElementById('squad-list').innerHTML = html;
