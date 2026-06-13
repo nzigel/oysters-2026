@@ -411,7 +411,16 @@
         "status": "scheduled",
         "ourScore": null,
         "theirScore": null,
-        "scorers": [],
+        "scorers": [
+          {
+            "player": "Nigel Parker",
+            "goals": 2
+          },
+          {
+            "player": "Caleb Paxton-Penman",
+            "goals": 1
+          }
+        ],
         "selectedSquad": [
           "Bureitabonini Toobwai (Raoiti)",
           "Temataake Bwauro",
