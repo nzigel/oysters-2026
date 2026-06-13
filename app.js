@@ -265,8 +265,9 @@ function fixtureRow(f, isNext) {
     ? `<ul>${squad.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul>`
     : `<div class="empty">Squad not yet selected.</div>`;
 
-  const refHtml = r.referee
-    ? `<div>${escapeHtml(r.referee)}</div>`
+  const refs = r.referees || (r.referee ? [r.referee] : []);
+  const refHtml = refs.length
+    ? `<div>${refs.map(escapeHtml).join(', ')}</div>`
     : `<div class="empty">Not recorded.</div>`;
 
   const notesHtml = r.notes
@@ -438,12 +439,7 @@ function renderSquad(data) {
   const referees = new Set();
   data.fixtures.forEach(f => {
     const r = f.result || {};
-    if (r.referee) referees.add(r.referee);
-    if (r.notes) {
-      data.squad.forEach(p => {
-        if (r.notes.includes(p.name) && /referee/i.test(r.notes)) referees.add(p.name);
-      });
-    }
+    (r.referees || (r.referee ? [r.referee] : [])).forEach(name => referees.add(name));
   });
   const apps = {};
   data.fixtures.forEach(f => {

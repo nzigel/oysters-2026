@@ -144,9 +144,11 @@
           "Bureitabonini Toobwai (Raoiti)",
           "Sam Williamson"
         ],
-        "referee": "Caleb Paxton-Penman",
         "notes": "Caleb refereed, did not play.",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": [
+          "Caleb Paxton-Penman"
+        ]
       }
     },
     {
@@ -186,9 +188,11 @@
           "Nigel Parker",
           "Treye Liu"
         ],
-        "referee": "Nigel Parker",
         "notes": "",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": [
+          "Nigel Parker"
+        ]
       }
     },
     {
@@ -241,9 +245,11 @@
           "Patrick Goodfellow",
           "Michael Sweeney"
         ],
-        "referee": "Simon Hartley",
         "notes": "",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": [
+          "Simon Hartley"
+        ]
       }
     },
     {
@@ -263,9 +269,9 @@
         "theirScore": 0,
         "scorers": [],
         "selectedSquad": [],
-        "referee": null,
         "notes": "Win by default — opponent withdrew.",
-        "goalkeeper": null
+        "goalkeeper": null,
+        "referees": []
       }
     },
     {
@@ -299,9 +305,9 @@
           "Isaac Lee",
           "Betiraoi Æ Lpú Tebarine"
         ],
-        "referee": null,
         "notes": "No referee assigned.",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": []
       }
     },
     {
@@ -338,9 +344,11 @@
           "Patrick Goodfellow",
           "Mark Reekie"
         ],
-        "referee": "Tim Baker",
         "notes": "",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": [
+          "Tim Baker"
+        ]
       }
     },
     {
@@ -393,9 +401,11 @@
           "Temataake Bwauro",
           "Betiraoi Æ Lpú Tebarine"
         ],
-        "referee": "Jimmy Bowens",
         "notes": "Jimmy refereed first half.",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": [
+          "Jimmy Bowens"
+        ]
       }
     },
     {
@@ -440,9 +450,12 @@
           "Tuiteran Takaatu (Gai)",
           "Betiraoi Æ Lpú Tebarine"
         ],
-        "referee": "Mohammed Khan",
         "notes": "Tim Baker played 1st half only, Mohammed Khan played 2nd half only. Mohammed refereed first half, Dane Awatea Vazey refereed second half.",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": [
+          "Mohammed Khan",
+          "Dane Awatea Vazey"
+        ]
       }
     },
     {
@@ -460,9 +473,9 @@
         "theirScore": null,
         "scorers": [],
         "selectedSquad": [],
-        "referee": null,
         "notes": "",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": []
       }
     },
     {
@@ -480,9 +493,9 @@
         "theirScore": null,
         "scorers": [],
         "selectedSquad": [],
-        "referee": null,
         "notes": "",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": []
       }
     },
     {
@@ -500,9 +513,9 @@
         "theirScore": null,
         "scorers": [],
         "selectedSquad": [],
-        "referee": null,
         "notes": "",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": []
       }
     },
     {
@@ -520,9 +533,9 @@
         "theirScore": null,
         "scorers": [],
         "selectedSquad": [],
-        "referee": null,
         "notes": "",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": []
       }
     },
     {
@@ -540,9 +553,9 @@
         "theirScore": null,
         "scorers": [],
         "selectedSquad": [],
-        "referee": null,
         "notes": "",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": []
       }
     },
     {
@@ -560,9 +573,9 @@
         "theirScore": null,
         "scorers": [],
         "selectedSquad": [],
-        "referee": null,
         "notes": "",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": []
       }
     },
     {
@@ -580,9 +593,9 @@
         "theirScore": null,
         "scorers": [],
         "selectedSquad": [],
-        "referee": null,
         "notes": "",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": []
       }
     },
     {
@@ -600,9 +613,9 @@
         "theirScore": null,
         "scorers": [],
         "selectedSquad": [],
-        "referee": null,
         "notes": "",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": []
       }
     },
     {
@@ -620,9 +633,9 @@
         "theirScore": null,
         "scorers": [],
         "selectedSquad": [],
-        "referee": null,
         "notes": "",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": []
       }
     },
     {
@@ -640,9 +653,9 @@
         "theirScore": null,
         "scorers": [],
         "selectedSquad": [],
-        "referee": null,
         "notes": "",
-        "goalkeeper": "Jake White"
+        "goalkeeper": "Jake White",
+        "referees": []
       }
     }
   ]
