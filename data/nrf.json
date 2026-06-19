@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T22:10:45.363Z",
+  "updated": "2026-06-19T09:23:38.337Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -307,13 +307,13 @@
         "team": "Coast Thunder",
         "club": "Hibiscus Coast AFC"
       },
-      "venue": "Metro Park: Field 1a",
-      "venueAddress": "Millwater Parkway, Silverdale, Auckland, 0932",
+      "venue": "Victor Eaves Park: Field 2",
+      "venueAddress": "Victor Eaves Park Recreation Reserve",
       "officials": null,
       "homeScore": null,
       "awayScore": null,
       "statusName": "Confirmed",
-      "publicNotes": null
+      "publicNotes": "Venue changed due to council restrictions"
     },
     {
       "id": 6301637,
