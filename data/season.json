@@ -471,8 +471,42 @@
         "status": "confirmed",
         "ourScore": 4,
         "theirScore": 3,
-        "scorers": [],
-        "selectedSquad": [],
+        "scorers": [
+          {
+            "player": "Keegan Petersen",
+            "goals": 1
+          },
+          {
+            "player": "Nigel Parker",
+            "goals": 1
+          },
+          {
+            "player": "Betiraoi Æ Lpú Tebarine",
+            "goals": 1
+          },
+          {
+            "player": "Temataake Bwauro",
+            "goals": 1
+          }
+        ],
+        "selectedSquad": [
+          "Michael Sweeney",
+          "Nigel Parker",
+          "Sam Williamson",
+          "Paul Hamblett",
+          "Temataake Bwauro",
+          "Jake White",
+          "Caleb Paxton-Penman",
+          "Jimmy Bowens",
+          "Bureitabonini Toobwai (Raoiti)",
+          "Tęŋ Sŭŋ Qŭịcƙ Tebarine",
+          "Keegan Petersen",
+          "Mohammed Khan",
+          "Isaac Lee",
+          "Betiraoi Æ Lpú Tebarine",
+          "Dane Awatea Vazey",
+          "Tauro Tiaon"
+        ],
         "notes": "",
         "goalkeeper": "Jake White",
         "referees": []
