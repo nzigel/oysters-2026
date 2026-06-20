@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T08:15:47.858Z",
+  "updated": "2026-06-20T18:03:13.913Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -224,6 +224,116 @@
       "officials": null,
       "homeScore": 2,
       "awayScore": 3,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301639,
+      "kind": "upcoming",
+      "date": "2026-06-27T12:30:00",
+      "section": "Section A",
+      "round": "ROUND 10",
+      "home": {
+        "team": "Knights",
+        "club": "Hibiscus Coast AFC"
+      },
+      "away": {
+        "team": "Buyusabeer",
+        "club": "Birkenhead United AFC"
+      },
+      "venue": "Stanmore Bay Park: Field 2",
+      "venueAddress": "Stanmore Bay Park",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301640,
+      "kind": "upcoming",
+      "date": "2026-06-27T12:30:00",
+      "section": "Section A",
+      "round": "ROUND 10",
+      "home": {
+        "team": "Coast Thunder",
+        "club": "Hibiscus Coast AFC"
+      },
+      "away": {
+        "team": "Hardheads",
+        "club": "Greenhithe Roaring 40s Sports Club"
+      },
+      "venue": "Victor Eaves Park: Field 2",
+      "venueAddress": "Victor Eaves Park Recreation Reserve",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": "Kickoff time changed to earlier to facilitate support of the All Whites vs Belgium match"
+    },
+    {
+      "id": 6301641,
+      "kind": "upcoming",
+      "date": "2026-06-27T12:30:00",
+      "section": "Section A",
+      "round": "ROUND 10",
+      "home": {
+        "team": "Cyclones",
+        "club": "Rodney District Sports Club"
+      },
+      "away": {
+        "team": "Ally Pally",
+        "club": "East Coast Bays A.F.C"
+      },
+      "venue": "Metro Park: Field 3",
+      "venueAddress": "Millwater Parkway, Silverdale, Auckland, 0932",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": "Kickoff time changed to earlier to facilitate support of the All Whites vs Belgium match"
+    },
+    {
+      "id": 6301642,
+      "kind": "upcoming",
+      "date": "2026-06-27T12:30:00",
+      "section": "Section A",
+      "round": "ROUND 10",
+      "home": {
+        "team": "Birkenheadaches",
+        "club": "Birkenhead United AFC"
+      },
+      "away": {
+        "team": "Nephews",
+        "club": "Rodney District Sports Club"
+      },
+      "venue": "Kaipatiki Park: Field 2",
+      "venueAddress": "Kaipatiki Park",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": "Kickoff time changed to earlier to facilitate support of the All Whites vs Belgium match"
+    },
+    {
+      "id": 6301638,
+      "kind": "upcoming",
+      "date": "2026-06-27T13:00:00",
+      "section": "Section A",
+      "round": "ROUND 10",
+      "home": {
+        "team": "Craigs Ski Troopers",
+        "club": "Northern Rovers FC"
+      },
+      "away": {
+        "team": "Oysters",
+        "club": "Warkworth FC"
+      },
+      "venue": "McFetridge Park: Field 3",
+      "venueAddress": "Mcfetridge Park",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
       "statusName": "Confirmed",
       "publicNotes": null
     }
