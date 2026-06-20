@@ -468,9 +468,9 @@
       "opponentClub": "Greenhithe Roaring 40s Sports Club",
       "isHome": false,
       "result": {
-        "status": "scheduled",
-        "ourScore": null,
-        "theirScore": null,
+        "status": "confirmed",
+        "ourScore": 4,
+        "theirScore": 3,
         "scorers": [],
         "selectedSquad": [],
         "notes": "",
