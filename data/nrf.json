@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T18:03:13.913Z",
+  "updated": "2026-06-23T08:22:19.775Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -241,13 +241,13 @@
         "team": "Buyusabeer",
         "club": "Birkenhead United AFC"
       },
-      "venue": "Stanmore Bay Park: Field 2",
+      "venue": "Stanmore Bay Park: Field 1",
       "venueAddress": "Stanmore Bay Park",
       "officials": null,
       "homeScore": null,
       "awayScore": null,
       "statusName": "Confirmed",
-      "publicNotes": null
+      "publicNotes": "Kickoff time changed to earlier to facilitate support of the All Whites vs Belgium match"
     },
     {
       "id": 6301640,
