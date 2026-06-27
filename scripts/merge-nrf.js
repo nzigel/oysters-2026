@@ -6,9 +6,10 @@
  * theirScore / status='confirmed' to match. Leaves scorers, squad,
  * referee, notes, and goalkeeper untouched.
  *
- * Matching: by opponent team name (case-insensitive). If date differs
- * from the season fixture (rescheduled), the NRF date is logged but
- * NOT auto-applied — schedule changes are flagged so a human can decide.
+ * Matching: by opponent team name (case-insensitive) and date. When the
+ * same opponent appears twice, prefers the fixture with a matching date,
+ * then the first unconfirmed fixture. If the matched date still differs
+ * (rescheduled), the NRF date is logged but NOT auto-applied.
  */
 
 const fs = require('fs');
@@ -23,12 +24,16 @@ function isOysters(name) {
   return OYSTERS_PATTERNS.some(re => re.test(name || ''));
 }
 
-function findSeasonFixture(season, opponentName) {
+function findSeasonFixture(season, opponentName, nrfDate) {
   const norm = s => (s || '').toLowerCase().trim();
-  return season.fixtures.find(sf => {
+  const matches = season.fixtures.filter(sf => {
     const opp = sf.isHome ? sf.away : sf.home;
     return norm(opp) === norm(opponentName);
   });
+  if (matches.length === 0) return null;
+  const byDate = matches.find(sf => sf.date === nrfDate);
+  if (byDate) return byDate;
+  return matches.find(sf => sf.result?.status !== 'confirmed') || matches[0];
 }
 
 function run() {
@@ -44,13 +49,13 @@ function run() {
     if (!homeIsUs && !awayIsUs) continue;
 
     const opponent = homeIsUs ? f.away.team : f.home.team;
-    const sf = findSeasonFixture(season, opponent);
+    const nrfDate = f.date.slice(0, 10);
+    const sf = findSeasonFixture(season, opponent, nrfDate);
     if (!sf) {
       warnings.push(`No season fixture for opponent "${opponent}" (NRF ${f.date.slice(0, 10)})`);
       continue;
     }
 
-    const nrfDate = f.date.slice(0, 10);
     if (nrfDate !== sf.date) {
       warnings.push(`Schedule change: ${opponent} season=${sf.date} nrf=${nrfDate} (not auto-applied)`);
     }
