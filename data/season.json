@@ -522,10 +522,23 @@
       "opponentClub": "Northern Rovers",
       "isHome": false,
       "result": {
-        "status": "scheduled",
-        "ourScore": null,
-        "theirScore": null,
-        "scorers": [],
+        "status": "confirmed",
+        "ourScore": 3,
+        "theirScore": 4,
+        "scorers": [
+          {
+            "player": "Nigel Parker",
+            "goals": 1
+          },
+          {
+            "player": "Tim Baker",
+            "goals": 1
+          },
+          {
+            "player": "Caleb Paxton-Penman",
+            "goals": 1
+          }
+        ],
         "selectedSquad": [
           "Tuiteran Takaatu (Gai)",
           "Bureitabonini Toobwai (Raoiti)",
