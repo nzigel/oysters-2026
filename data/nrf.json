@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T02:51:10.643Z",
+  "updated": "2026-06-27T17:52:51.094Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -224,6 +224,116 @@
       "officials": null,
       "homeScore": 4,
       "awayScore": 3,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301643,
+      "kind": "upcoming",
+      "date": "2026-07-04T13:00:00",
+      "section": "Section A",
+      "round": "ROUND 11",
+      "home": {
+        "team": "Craigs Ski Troopers",
+        "club": "Northern Rovers FC"
+      },
+      "away": {
+        "team": "Knights",
+        "club": "Hibiscus Coast AFC"
+      },
+      "venue": "McFetridge Park: Field 3",
+      "venueAddress": "Mcfetridge Park",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301645,
+      "kind": "upcoming",
+      "date": "2026-07-04T13:00:00",
+      "section": "Section A",
+      "round": "ROUND 11",
+      "home": {
+        "team": "Buyusabeer",
+        "club": "Birkenhead United AFC"
+      },
+      "away": {
+        "team": "Cyclones",
+        "club": "Rodney District Sports Club"
+      },
+      "venue": "Bay City Park: Field 3",
+      "venueAddress": "Bay City Park",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301646,
+      "kind": "upcoming",
+      "date": "2026-07-04T13:00:00",
+      "section": "Section A",
+      "round": "ROUND 11",
+      "home": {
+        "team": "Hardheads",
+        "club": "Greenhithe Roaring 40s Sports Club"
+      },
+      "away": {
+        "team": "Birkenheadaches",
+        "club": "Birkenhead United AFC"
+      },
+      "venue": "Wainoni Park: Field 2a",
+      "venueAddress": "Wainoni Park South",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301644,
+      "kind": "upcoming",
+      "date": "2026-07-04T15:00:00",
+      "section": "Section A",
+      "round": "ROUND 11",
+      "home": {
+        "team": "Oysters",
+        "club": "Warkworth FC"
+      },
+      "away": {
+        "team": "Coast Thunder",
+        "club": "Hibiscus Coast AFC"
+      },
+      "venue": "Shoesmith Domain: Field 2",
+      "venueAddress": "Shoesmith Domain",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301647,
+      "kind": "upcoming",
+      "date": "2026-07-04T15:00:00",
+      "section": "Section A",
+      "round": "ROUND 11",
+      "home": {
+        "team": "Ally Pally",
+        "club": "East Coast Bays A.F.C"
+      },
+      "away": {
+        "team": "Nephews",
+        "club": "Rodney District Sports Club"
+      },
+      "venue": "Bay City Park: Field 2",
+      "venueAddress": "Bay City Park",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
       "statusName": "Confirmed",
       "publicNotes": null
     }
