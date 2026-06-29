@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T17:52:51.094Z",
+  "updated": "2026-06-29T09:19:54.486Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -263,8 +263,8 @@
         "team": "Cyclones",
         "club": "Rodney District Sports Club"
       },
-      "venue": "Bay City Park: Field 3",
-      "venueAddress": "Bay City Park",
+      "venue": "Greville Reserve - Turf: Field 1",
+      "venueAddress": "Greville Reserve",
       "officials": null,
       "homeScore": null,
       "awayScore": null,
