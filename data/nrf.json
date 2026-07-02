@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T08:42:53.565Z",
+  "updated": "2026-07-02T07:58:31.845Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -228,28 +228,6 @@
       "publicNotes": null
     },
     {
-      "id": 6301643,
-      "kind": "upcoming",
-      "date": "2026-07-04T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 11",
-      "home": {
-        "team": "Craigs Ski Troopers",
-        "club": "Northern Rovers FC"
-      },
-      "away": {
-        "team": "Knights",
-        "club": "Hibiscus Coast AFC"
-      },
-      "venue": "McFetridge Park: Field 4",
-      "venueAddress": "Mcfetridge Park",
-      "officials": null,
-      "homeScore": null,
-      "awayScore": null,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
       "id": 6301645,
       "kind": "upcoming",
       "date": "2026-07-04T13:00:00",
@@ -287,6 +265,28 @@
       },
       "venue": "Wainoni Park: Field 2a",
       "venueAddress": "Wainoni Park South",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301643,
+      "kind": "upcoming",
+      "date": "2026-07-04T15:00:00",
+      "section": "Section A",
+      "round": "ROUND 11",
+      "home": {
+        "team": "Craigs Ski Troopers",
+        "club": "Northern Rovers FC"
+      },
+      "away": {
+        "team": "Knights",
+        "club": "Hibiscus Coast AFC"
+      },
+      "venue": "Greville Reserve - Turf: Field 1",
+      "venueAddress": "Greville Reserve",
       "officials": null,
       "homeScore": null,
       "awayScore": null,
