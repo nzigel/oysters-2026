@@ -566,7 +566,8 @@
     {
       "id": 11,
       "date": "2026-07-04",
-      "time": "13:00",
+      "time": "15:00",
+      "originalTime": "13:00",
       "venue": "Shoesmith Domain: Field 2",
       "home": "Oysters",
       "away": "Coast Thunder",
