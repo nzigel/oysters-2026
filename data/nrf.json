@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T04:55:42.921Z",
+  "updated": "2026-07-04T06:54:13.556Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -28,6 +28,17 @@
       "points": 22
     },
     {
+      "team": "Rodney District Sports Club : Nephews",
+      "played": 11,
+      "won": 7,
+      "drawn": 1,
+      "lost": 3,
+      "gf": 42,
+      "ga": 29,
+      "gd": 13,
+      "points": 22
+    },
+    {
       "team": "Greenhithe Roaring 40s Sports Club : Hardheads",
       "played": 11,
       "won": 7,
@@ -37,17 +48,6 @@
       "ga": 30,
       "gd": 27,
       "points": 21
-    },
-    {
-      "team": "Rodney District Sports Club : Nephews",
-      "played": 10,
-      "won": 6,
-      "drawn": 1,
-      "lost": 3,
-      "gf": 39,
-      "ga": 27,
-      "gd": 12,
-      "points": 19
     },
     {
       "team": "Northern Rovers : Craigs Ski Troopers",
@@ -84,13 +84,13 @@
     },
     {
       "team": "East Coast Bays A.F.C : Ally Pally",
-      "played": 10,
+      "played": 11,
       "won": 3,
       "drawn": 1,
-      "lost": 6,
-      "gf": 30,
-      "ga": 33,
-      "gd": -3,
+      "lost": 7,
+      "gf": 32,
+      "ga": 36,
+      "gd": -4,
       "points": 10
     },
     {
@@ -222,8 +222,8 @@
       "venue": "Bay City Park: Field 2",
       "venueAddress": "Bay City Park",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 3,
       "statusName": "Confirmed",
       "publicNotes": null
     }
