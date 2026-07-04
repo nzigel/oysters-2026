@@ -577,7 +577,20 @@
         "status": "confirmed",
         "ourScore": 8,
         "theirScore": 0,
-        "scorers": [],
+        "scorers": [
+          {
+            "player": "Nigel Parker",
+            "goals": 4
+          },
+          {
+            "player": "Tim Baker",
+            "goals": 3
+          },
+          {
+            "player": "Jimmy Bowens",
+            "goals": 1
+          }
+        ],
         "selectedSquad": [
           "Treye Liu",
           "Jake White",
@@ -597,7 +610,9 @@
         ],
         "notes": "",
         "goalkeeper": "Jake White",
-        "referees": []
+        "referees": [
+          "Keegan Petersen"
+        ]
       }
     },
     {
