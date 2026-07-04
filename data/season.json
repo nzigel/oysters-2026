@@ -574,9 +574,9 @@
       "opponentClub": "Hibiscus Coast AFC",
       "isHome": true,
       "result": {
-        "status": "scheduled",
-        "ourScore": null,
-        "theirScore": null,
+        "status": "confirmed",
+        "ourScore": 8,
+        "theirScore": 0,
         "scorers": [],
         "selectedSquad": [
           "Treye Liu",
