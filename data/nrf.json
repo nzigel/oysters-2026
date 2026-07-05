@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T17:53:10.523Z",
+  "updated": "2026-07-05T02:01:17.860Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -17,17 +17,6 @@
       "points": 24
     },
     {
-      "team": "Hibiscus Coast AFC : Knights",
-      "played": 10,
-      "won": 7,
-      "drawn": 1,
-      "lost": 2,
-      "gf": 40,
-      "ga": 22,
-      "gd": 18,
-      "points": 22
-    },
-    {
       "team": "Rodney District Sports Club : Nephews",
       "played": 11,
       "won": 7,
@@ -36,6 +25,17 @@
       "gf": 42,
       "ga": 29,
       "gd": 13,
+      "points": 22
+    },
+    {
+      "team": "Hibiscus Coast AFC : Knights",
+      "played": 11,
+      "won": 7,
+      "drawn": 1,
+      "lost": 3,
+      "gf": 40,
+      "ga": 28,
+      "gd": 12,
       "points": 22
     },
     {
@@ -51,14 +51,14 @@
     },
     {
       "team": "Northern Rovers : Craigs Ski Troopers",
-      "played": 10,
-      "won": 5,
+      "played": 11,
+      "won": 6,
       "drawn": 2,
       "lost": 3,
-      "gf": 42,
+      "gf": 48,
       "ga": 19,
-      "gd": 23,
-      "points": 17
+      "gd": 29,
+      "points": 20
     },
     {
       "team": "Rodney District Sports Club : Cyclones",
@@ -178,8 +178,8 @@
       "venue": "Greville Reserve - Turf: Field 1",
       "venueAddress": "Greville Reserve",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 6,
+      "awayScore": 0,
       "statusName": "Confirmed",
       "publicNotes": null
     },
