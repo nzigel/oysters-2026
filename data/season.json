@@ -100,6 +100,10 @@
     {
       "number": 23,
       "name": "Tauro Tiaon"
+    },
+    {
+      "number": 24,
+      "name": "Issy Paxton-Penman"
     }
   ],
   "fixtures": [
@@ -629,7 +633,22 @@
         "ourScore": null,
         "theirScore": null,
         "scorers": [],
-        "selectedSquad": [],
+        "selectedSquad": [
+          "Caleb Paxton-Penman",
+          "Isaac Lee",
+          "Sam Williamson",
+          "Jake White",
+          "Temataake Bwauro",
+          "Tim Baker",
+          "Jimmy Bowens",
+          "Bureitabonini Toobwai (Raoiti)",
+          "Dane Awatea Vazey",
+          "Keegan Petersen",
+          "Tuiteran Takaatu (Gai)",
+          "Treye Liu",
+          "Tęŋ Sŭŋ Qŭịcƙ Tebarine",
+          "Issy Paxton-Penman"
+        ],
         "notes": "",
         "goalkeeper": "Jake White",
         "referees": []
