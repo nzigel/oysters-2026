@@ -632,7 +632,20 @@
         "status": "confirmed",
         "ourScore": 3,
         "theirScore": 3,
-        "scorers": [],
+        "scorers": [
+          {
+            "player": "Tim Baker",
+            "goals": 1
+          },
+          {
+            "player": "Betiraoi Æ Lpú Tebarine",
+            "goals": 1
+          },
+          {
+            "player": "Tuiteran Takaatu (Gai)",
+            "goals": 1
+          }
+        ],
         "selectedSquad": [
           "Caleb Paxton-Penman",
           "Isaac Lee",
