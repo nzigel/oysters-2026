@@ -629,9 +629,9 @@
       "opponentClub": "Birkenhead United",
       "isHome": false,
       "result": {
-        "status": "scheduled",
-        "ourScore": null,
-        "theirScore": null,
+        "status": "confirmed",
+        "ourScore": 3,
+        "theirScore": 3,
         "scorers": [],
         "selectedSquad": [
           "Caleb Paxton-Penman",
