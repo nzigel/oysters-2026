@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T16:06:47.722Z",
+  "updated": "2026-07-20T07:49:24.117Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -53,12 +53,12 @@
       "team": "Greenhithe Roaring 40s Sports Club : Hardheads",
       "played": 12,
       "won": 7,
-      "drawn": 0,
-      "lost": 5,
+      "drawn": 1,
+      "lost": 4,
       "gf": 58,
-      "ga": 32,
-      "gd": 26,
-      "points": 21
+      "ga": 31,
+      "gd": 27,
+      "points": 22
     },
     {
       "team": "Rodney District Sports Club : Cyclones",
@@ -72,17 +72,6 @@
       "points": 18
     },
     {
-      "team": "East Coast Bays A.F.C : Ally Pally",
-      "played": 12,
-      "won": 4,
-      "drawn": 1,
-      "lost": 7,
-      "gf": 34,
-      "ga": 37,
-      "gd": -3,
-      "points": 13
-    },
-    {
       "team": "Birkenhead United : Buyusabeer",
       "played": 12,
       "won": 4,
@@ -92,6 +81,17 @@
       "ga": 33,
       "gd": -4,
       "points": 13
+    },
+    {
+      "team": "East Coast Bays A.F.C : Ally Pally",
+      "played": 12,
+      "won": 3,
+      "drawn": 2,
+      "lost": 7,
+      "gf": 33,
+      "ga": 37,
+      "gd": -4,
+      "points": 11
     },
     {
       "team": "Birkenhead United : Birkenheadaches",
@@ -178,7 +178,7 @@
       "venue": "Bay City Park: Field 2a",
       "venueAddress": "Bay City Park",
       "officials": null,
-      "homeScore": 2,
+      "homeScore": 1,
       "awayScore": 1,
       "statusName": "Confirmed",
       "publicNotes": null
