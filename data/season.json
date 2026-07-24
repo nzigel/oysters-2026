@@ -682,8 +682,25 @@
         "ourScore": null,
         "theirScore": null,
         "scorers": [],
-        "selectedSquad": [],
-        "notes": "",
+        "selectedSquad": [
+          "Sam Williamson",
+          "Caleb Paxton-Penman",
+          "Issy Paxton-Penman",
+          "Jimmy Bowens",
+          "Jake White",
+          "Nigel Parker",
+          "Mohammed Khan",
+          "Tęŋ Sŭŋ Qŭịcƙ Tebarine",
+          "Tuiteran Takaatu (Gai)",
+          "Temataake Bwauro",
+          "Bureitabonini Toobwai (Raoiti)",
+          "Dane Awatea Vazey",
+          "Isaac Lee",
+          "Keegan Petersen",
+          "Simon Hartley",
+          "Michael Sweeney"
+        ],
+        "notes": "Simon Hartley in for some minutes.",
         "goalkeeper": "Jake White",
         "referees": []
       }
