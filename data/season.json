@@ -678,10 +678,31 @@
       "opponentClub": "East Coast Bays A.F.C",
       "isHome": true,
       "result": {
-        "status": "scheduled",
-        "ourScore": null,
-        "theirScore": null,
-        "scorers": [],
+        "status": "confirmed",
+        "ourScore": 8,
+        "theirScore": 1,
+        "scorers": [
+          {
+            "player": "Betiraoi Æ Lpú Tebarine",
+            "goals": 3
+          },
+          {
+            "player": "Jimmy Bowens",
+            "goals": 2
+          },
+          {
+            "player": "Mohammed Khan",
+            "goals": 1
+          },
+          {
+            "player": "Bureitabonini Toobwai (Raoiti)",
+            "goals": 1
+          },
+          {
+            "player": "Keegan Petersen",
+            "goals": 1
+          }
+        ],
         "selectedSquad": [
           "Sam Williamson",
           "Caleb Paxton-Penman",
@@ -698,11 +719,14 @@
           "Isaac Lee",
           "Keegan Petersen",
           "Simon Hartley",
-          "Michael Sweeney"
+          "Michael Sweeney",
+          "Betiraoi Æ Lpú Tebarine"
         ],
         "notes": "Simon Hartley in for some minutes.",
         "goalkeeper": "Jake White",
-        "referees": []
+        "referees": [
+          "Simon Hartley"
+        ]
       }
     },
     {
