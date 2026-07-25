@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T03:02:42.560Z",
+  "updated": "2026-07-25T07:07:14.642Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -28,14 +28,25 @@
       "points": 26
     },
     {
-      "team": "Rodney District Sports Club : Nephews",
-      "played": 12,
+      "team": "Hibiscus Coast AFC : Knights",
+      "played": 13,
       "won": 8,
-      "drawn": 1,
+      "drawn": 2,
       "lost": 3,
       "gf": 44,
       "ga": 30,
       "gd": 14,
+      "points": 26
+    },
+    {
+      "team": "Rodney District Sports Club : Nephews",
+      "played": 13,
+      "won": 8,
+      "drawn": 1,
+      "lost": 4,
+      "gf": 45,
+      "ga": 33,
+      "gd": 12,
       "points": 25
     },
     {
@@ -47,17 +58,6 @@
       "gf": 61,
       "ga": 34,
       "gd": 27,
-      "points": 23
-    },
-    {
-      "team": "Hibiscus Coast AFC : Knights",
-      "played": 12,
-      "won": 7,
-      "drawn": 2,
-      "lost": 3,
-      "gf": 41,
-      "ga": 29,
-      "gd": 12,
       "points": 23
     },
     {
@@ -83,6 +83,17 @@
       "points": 14
     },
     {
+      "team": "Birkenhead United : Birkenheadaches",
+      "played": 13,
+      "won": 4,
+      "drawn": 1,
+      "lost": 8,
+      "gf": 33,
+      "ga": 45,
+      "gd": -12,
+      "points": 13
+    },
+    {
       "team": "East Coast Bays A.F.C : Ally Pally",
       "played": 13,
       "won": 3,
@@ -94,25 +105,14 @@
       "points": 11
     },
     {
-      "team": "Birkenhead United : Birkenheadaches",
-      "played": 12,
-      "won": 3,
-      "drawn": 1,
-      "lost": 8,
-      "gf": 28,
-      "ga": 43,
-      "gd": -15,
-      "points": 10
-    },
-    {
       "team": "Hibiscus Coast AFC : Coast Thunder",
-      "played": 12,
+      "played": 13,
       "won": 1,
       "drawn": 0,
-      "lost": 11,
-      "gf": 8,
-      "ga": 109,
-      "gd": -101,
+      "lost": 12,
+      "gf": 10,
+      "ga": 114,
+      "gd": -104,
       "points": 3
     }
   ],
@@ -156,8 +156,8 @@
       "venue": "Stanmore Bay Park: Field 3",
       "venueAddress": "Stanmore Bay Park",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 5,
       "statusName": "Confirmed",
       "publicNotes": null
     },
@@ -178,8 +178,8 @@
       "venue": "Gulf Harbour Reserve: Field 1",
       "venueAddress": "Gulf Harbour Reserve",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 3,
+      "awayScore": 1,
       "statusName": "Confirmed",
       "publicNotes": null
     },
