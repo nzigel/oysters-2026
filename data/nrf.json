@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T17:45:35.146Z",
+  "updated": "2026-08-01T07:21:43.888Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -7,229 +7,119 @@
   "table": [
     {
       "team": "Warkworth FC : Oysters",
-      "played": 13,
-      "won": 9,
+      "played": 14,
+      "won": 10,
       "drawn": 1,
       "lost": 3,
-      "gf": 50,
-      "ga": 23,
-      "gd": 27,
-      "points": 28
+      "gf": 53,
+      "ga": 25,
+      "gd": 28,
+      "points": 31
     },
     {
       "team": "Northern Rovers : Craigs Ski Troopers",
-      "played": 13,
-      "won": 8,
+      "played": 14,
+      "won": 9,
       "drawn": 2,
       "lost": 3,
-      "gf": 67,
-      "ga": 23,
-      "gd": 44,
-      "points": 26
+      "gf": 74,
+      "ga": 27,
+      "gd": 47,
+      "points": 29
     },
     {
       "team": "Hibiscus Coast AFC : Knights",
-      "played": 13,
-      "won": 8,
+      "played": 14,
+      "won": 9,
       "drawn": 2,
       "lost": 3,
-      "gf": 44,
-      "ga": 30,
-      "gd": 14,
-      "points": 26
+      "gf": 47,
+      "ga": 31,
+      "gd": 16,
+      "points": 29
     },
     {
       "team": "Rodney District Sports Club : Nephews",
-      "played": 13,
-      "won": 8,
+      "played": 14,
+      "won": 9,
       "drawn": 1,
       "lost": 4,
-      "gf": 45,
-      "ga": 33,
-      "gd": 12,
-      "points": 25
+      "gf": 48,
+      "ga": 35,
+      "gd": 13,
+      "points": 28
     },
     {
       "team": "Greenhithe Roaring 40s Sports Club : Hardheads",
-      "played": 13,
+      "played": 14,
       "won": 7,
       "drawn": 2,
-      "lost": 4,
-      "gf": 61,
-      "ga": 34,
-      "gd": 27,
+      "lost": 5,
+      "gf": 62,
+      "ga": 37,
+      "gd": 25,
       "points": 23
     },
     {
       "team": "Rodney District Sports Club : Cyclones",
-      "played": 13,
+      "played": 14,
       "won": 5,
       "drawn": 3,
-      "lost": 5,
-      "gf": 39,
-      "ga": 32,
-      "gd": 7,
+      "lost": 6,
+      "gf": 41,
+      "ga": 35,
+      "gd": 6,
       "points": 18
     },
     {
-      "team": "Birkenhead United : Buyusabeer",
-      "played": 13,
+      "team": "East Coast Bays A.F.C : Ally Pally",
+      "played": 14,
       "won": 4,
       "drawn": 2,
-      "lost": 7,
-      "gf": 32,
-      "ga": 36,
-      "gd": -4,
+      "lost": 8,
+      "gf": 45,
+      "ga": 46,
+      "gd": -1,
+      "points": 14
+    },
+    {
+      "team": "Birkenhead United : Buyusabeer",
+      "played": 14,
+      "won": 4,
+      "drawn": 2,
+      "lost": 8,
+      "gf": 34,
+      "ga": 39,
+      "gd": -5,
       "points": 14
     },
     {
       "team": "Birkenhead United : Birkenheadaches",
-      "played": 13,
+      "played": 14,
       "won": 4,
       "drawn": 1,
-      "lost": 8,
-      "gf": 33,
-      "ga": 45,
-      "gd": -12,
+      "lost": 9,
+      "gf": 37,
+      "ga": 52,
+      "gd": -15,
       "points": 13
     },
     {
-      "team": "East Coast Bays A.F.C : Ally Pally",
-      "played": 13,
-      "won": 3,
-      "drawn": 2,
-      "lost": 8,
-      "gf": 34,
-      "ga": 45,
-      "gd": -11,
-      "points": 11
-    },
-    {
       "team": "Hibiscus Coast AFC : Coast Thunder",
-      "played": 13,
+      "played": 14,
       "won": 1,
       "drawn": 0,
-      "lost": 12,
-      "gf": 10,
-      "ga": 114,
-      "gd": -104,
+      "lost": 13,
+      "gf": 11,
+      "ga": 125,
+      "gd": -114,
       "points": 3
     }
   ],
   "fixtures": [
     {
-      "id": 6301653,
-      "kind": "result",
-      "date": "2026-07-25T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 13",
-      "home": {
-        "team": "Craigs Ski Troopers",
-        "club": "Northern Rovers FC"
-      },
-      "away": {
-        "team": "Cyclones",
-        "club": "Rodney District Sports Club"
-      },
-      "venue": "McFetridge Park: Field 4",
-      "venueAddress": "Mcfetridge Park",
-      "officials": null,
-      "homeScore": 5,
-      "awayScore": 3,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301654,
-      "kind": "result",
-      "date": "2026-07-25T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 13",
-      "home": {
-        "team": "Coast Thunder",
-        "club": "Hibiscus Coast AFC"
-      },
-      "away": {
-        "team": "Birkenheadaches",
-        "club": "Birkenhead United AFC"
-      },
-      "venue": "Stanmore Bay Park: Field 3",
-      "venueAddress": "Stanmore Bay Park",
-      "officials": null,
-      "homeScore": 2,
-      "awayScore": 5,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301655,
-      "kind": "result",
-      "date": "2026-07-25T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 13",
-      "home": {
-        "team": "Knights",
-        "club": "Hibiscus Coast AFC"
-      },
-      "away": {
-        "team": "Nephews",
-        "club": "Rodney District Sports Club"
-      },
-      "venue": "Gulf Harbour Reserve: Field 1",
-      "venueAddress": "Gulf Harbour Reserve",
-      "officials": null,
-      "homeScore": 3,
-      "awayScore": 1,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301656,
-      "kind": "result",
-      "date": "2026-07-25T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 13",
-      "home": {
-        "team": "Oysters",
-        "club": "Warkworth FC"
-      },
-      "away": {
-        "team": "Ally Pally",
-        "club": "East Coast Bays A.F.C"
-      },
-      "venue": "Shoesmith Domain: Field 2",
-      "venueAddress": "Shoesmith Domain",
-      "officials": null,
-      "homeScore": 8,
-      "awayScore": 1,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301657,
-      "kind": "result",
-      "date": "2026-07-25T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 13",
-      "home": {
-        "team": "Buyusabeer",
-        "club": "Birkenhead United AFC"
-      },
-      "away": {
-        "team": "Hardheads",
-        "club": "Greenhithe Roaring 40s Sports Club"
-      },
-      "venue": "Shepherds Park: Field 4",
-      "venueAddress": "Shepherds Park",
-      "officials": null,
-      "homeScore": 3,
-      "awayScore": 3,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
       "id": 6301658,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-08-01T13:00:00",
       "section": "Section A",
       "round": "ROUND 14",
@@ -244,14 +134,14 @@
       "venue": "Onepoto Domain: Field 2",
       "venueAddress": "Onepoto Domain",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 4,
+      "awayScore": 7,
       "statusName": "Confirmed",
       "publicNotes": null
     },
     {
       "id": 6301659,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-08-01T13:00:00",
       "section": "Section A",
       "round": "ROUND 14",
@@ -266,14 +156,14 @@
       "venue": "Metro Park: Field 1",
       "venueAddress": "Millwater Parkway, Silverdale, Auckland, 0932",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 3,
+      "awayScore": 2,
       "statusName": "Confirmed",
       "publicNotes": null
     },
     {
       "id": 6301660,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-08-01T13:00:00",
       "section": "Section A",
       "round": "ROUND 14",
@@ -288,14 +178,14 @@
       "venue": "Bay City Park: Field 3",
       "venueAddress": "Bay City Park",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 11,
+      "awayScore": 1,
       "statusName": "Confirmed",
       "publicNotes": null
     },
     {
       "id": 6301661,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-08-01T13:00:00",
       "section": "Section A",
       "round": "ROUND 14",
@@ -310,14 +200,14 @@
       "venue": "Greenhithe War Memorial Park: Field 1",
       "venueAddress": "Greenhithe War Memorial Park",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 3,
       "statusName": "Confirmed",
       "publicNotes": null
     },
     {
       "id": 6301662,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-08-01T13:00:00",
       "section": "Section A",
       "round": "ROUND 14",
@@ -332,8 +222,8 @@
       "venue": "Shepherds Park: Field 4",
       "venueAddress": "Shepherds Park",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 3,
       "statusName": "Confirmed",
       "publicNotes": null
     }
