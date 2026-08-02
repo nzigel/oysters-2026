@@ -739,14 +739,42 @@
       "opponentClub": "Birkenhead United",
       "isHome": false,
       "result": {
-        "status": "scheduled",
-        "ourScore": null,
-        "theirScore": null,
-        "scorers": [],
-        "selectedSquad": [],
-        "notes": "",
-        "goalkeeper": "Jake White",
-        "referees": []
+        "status": "confirmed",
+        "ourScore": 3,
+        "theirScore": 2,
+        "scorers": [
+          {
+            "player": "Tęŋ Sŭŋ Qŭịcƙ Tebarine",
+            "goals": 1
+          },
+          {
+            "player": "Bureitabonini Toobwai (Raoiti)",
+            "goals": 1
+          },
+          {
+            "player": "Jimmy Bowens",
+            "goals": 1
+          }
+        ],
+        "selectedSquad": [
+          "Nigel Parker",
+          "Tuiteran Takaatu (Gai)",
+          "Simon Hartley",
+          "Caleb Paxton-Penman",
+          "Issy Paxton-Penman",
+          "Dane Awatea Vazey",
+          "Tęŋ Sŭŋ Qŭịcƙ Tebarine",
+          "Michael Sweeney",
+          "Jimmy Bowens",
+          "Bureitabonini Toobwai (Raoiti)",
+          "Paul Hamblett",
+          "Isaac Lee"
+        ],
+        "notes": "Jimmy Bowens and Michael Sweeney shared goalkeeping (a half each). Paul Hamblett played half and refereed.",
+        "goalkeeper": null,
+        "referees": [
+          "Paul Hamblett"
+        ]
       }
     },
     {
