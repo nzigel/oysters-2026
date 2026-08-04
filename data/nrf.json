@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T17:48:28.579Z",
+  "updated": "2026-08-04T07:28:32.270Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -241,8 +241,8 @@
         "team": "Nephews",
         "club": "Rodney District Sports Club"
       },
-      "venue": "McFetridge Park: Field 3",
-      "venueAddress": "Mcfetridge Park",
+      "venue": "Becroft Park: Field 2",
+      "venueAddress": "Becroft Park Reserve",
       "officials": null,
       "homeScore": null,
       "awayScore": null,
