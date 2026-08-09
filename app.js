@@ -436,10 +436,12 @@ function renderAppearances(data) {
 }
 
 function renderSquad(data) {
-  const referees = new Set();
+  const refCounts = {};
   data.fixtures.forEach(f => {
     const r = f.result || {};
-    (r.referees || (r.referee ? [r.referee] : [])).forEach(name => referees.add(name));
+    (r.referees || (r.referee ? [r.referee] : [])).forEach(name => {
+      refCounts[name] = (refCounts[name] || 0) + 1;
+    });
   });
   const apps = {};
   const goals = {};
@@ -453,8 +455,8 @@ function renderSquad(data) {
     });
   });
   const html = data.squad.map(p => {
-    const hasReffed = p.preseasonRef || referees.has(p.name);
-    const refBadge = hasReffed ? `<span class="ref-band" title="Has refereed this season">R</span>` : '';
+    const refCount = (refCounts[p.name] || 0) + (p.preseasonRef ? 1 : 0);
+    const refBadge = refCount > 0 ? `<span class="ref-band" title="Refereed ${refCount} time${refCount > 1 ? 's' : ''} this season">R${refCount > 1 ? refCount : ''}</span>` : '';
     const count = apps[p.name] || 0;
     const appBadge = `<span class="app-band" title="Appearances">${count}</span>`;
     const g = goals[p.name] || 0;
