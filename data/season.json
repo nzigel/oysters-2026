@@ -787,9 +787,9 @@
       "opponentClub": "Hibiscus Coast AFC",
       "isHome": false,
       "result": {
-        "status": "scheduled",
-        "ourScore": null,
-        "theirScore": null,
+        "status": "confirmed",
+        "ourScore": 0,
+        "theirScore": 2,
         "scorers": [],
         "selectedSquad": [],
         "notes": "",
