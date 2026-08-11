@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T17:18:28.952Z",
+  "updated": "2026-08-11T05:44:22.818Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -285,8 +285,8 @@
         "team": "Craigs Ski Troopers",
         "club": "Northern Rovers FC"
       },
-      "venue": "Bay City Park: Field 2",
-      "venueAddress": "Bay City Park",
+      "venue": "Ashley Reserve: Field 2(Turf)",
+      "venueAddress": "Ashley Reserve",
       "officials": null,
       "homeScore": null,
       "awayScore": null,
