@@ -813,9 +813,24 @@
         "ourScore": null,
         "theirScore": null,
         "scorers": [],
-        "selectedSquad": [],
-        "notes": "",
-        "goalkeeper": "Jake White",
+        "selectedSquad": [
+          "Temataake Bwauro",
+          "Tim Baker",
+          "Paul Hamblett",
+          "Sam Williamson",
+          "Nigel Parker",
+          "Jimmy Bowens",
+          "Mohammed Khan",
+          "Caleb Paxton-Penman",
+          "Issy Paxton-Penman",
+          "Isaac Lee",
+          "Keegan Petersen",
+          "Simon Hartley",
+          "Tęŋ Sŭŋ Qŭịcƙ Tebarine",
+          "Dane Awatea Vazey"
+        ],
+        "notes": "Sam Williamson arriving late. Nigel Parker playing with broken toe.",
+        "goalkeeper": "",
         "referees": []
       }
     },
