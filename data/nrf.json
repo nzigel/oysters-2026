@@ -1,10 +1,21 @@
 {
-  "updated": "2026-08-11T05:44:22.818Z",
+  "updated": "2026-08-15T03:03:37.533Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
   "phaseId": 28268,
   "table": [
+    {
+      "team": "Northern Rovers : Craigs Ski Troopers",
+      "played": 16,
+      "won": 10,
+      "drawn": 2,
+      "lost": 4,
+      "gf": 79,
+      "ga": 30,
+      "gd": 49,
+      "points": 32
+    },
     {
       "team": "Hibiscus Coast AFC : Knights",
       "played": 15,
@@ -18,13 +29,13 @@
     },
     {
       "team": "Warkworth FC : Oysters",
-      "played": 15,
+      "played": 16,
       "won": 10,
       "drawn": 1,
-      "lost": 4,
-      "gf": 53,
-      "ga": 27,
-      "gd": 26,
+      "lost": 5,
+      "gf": 55,
+      "ga": 30,
+      "gd": 25,
       "points": 31
     },
     {
@@ -39,15 +50,15 @@
       "points": 31
     },
     {
-      "team": "Northern Rovers : Craigs Ski Troopers",
-      "played": 15,
-      "won": 9,
-      "drawn": 2,
-      "lost": 4,
-      "gf": 76,
-      "ga": 30,
-      "gd": 46,
-      "points": 29
+      "team": "Rodney District Sports Club : Cyclones",
+      "played": 16,
+      "won": 7,
+      "drawn": 3,
+      "lost": 6,
+      "gf": 48,
+      "ga": 40,
+      "gd": 8,
+      "points": 24
     },
     {
       "team": "Greenhithe Roaring 40s Sports Club : Hardheads",
@@ -61,48 +72,37 @@
       "points": 23
     },
     {
-      "team": "Rodney District Sports Club : Cyclones",
+      "team": "Birkenhead United : Birkenheadaches",
       "played": 15,
-      "won": 6,
-      "drawn": 3,
-      "lost": 6,
-      "gf": 45,
-      "ga": 38,
-      "gd": 7,
-      "points": 21
+      "won": 5,
+      "drawn": 1,
+      "lost": 9,
+      "gf": 41,
+      "ga": 54,
+      "gd": -13,
+      "points": 16
     },
     {
       "team": "East Coast Bays A.F.C : Ally Pally",
-      "played": 14,
+      "played": 15,
       "won": 4,
       "drawn": 2,
-      "lost": 8,
+      "lost": 9,
       "gf": 45,
-      "ga": 46,
-      "gd": -1,
+      "ga": 49,
+      "gd": -4,
       "points": 14
     },
     {
       "team": "Birkenhead United : Buyusabeer",
-      "played": 14,
+      "played": 15,
       "won": 4,
       "drawn": 2,
-      "lost": 8,
-      "gf": 34,
-      "ga": 39,
-      "gd": -5,
-      "points": 14
-    },
-    {
-      "team": "Birkenhead United : Birkenheadaches",
-      "played": 14,
-      "won": 4,
-      "drawn": 1,
       "lost": 9,
-      "gf": 37,
-      "ga": 52,
-      "gd": -15,
-      "points": 13
+      "gf": 36,
+      "ga": 43,
+      "gd": -7,
+      "points": 14
     },
     {
       "team": "Hibiscus Coast AFC : Coast Thunder",
@@ -118,74 +118,8 @@
   ],
   "fixtures": [
     {
-      "id": 6301663,
-      "kind": "result",
-      "date": "2026-08-08T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 15",
-      "home": {
-        "team": "Craigs Ski Troopers",
-        "club": "Northern Rovers FC"
-      },
-      "away": {
-        "team": "Nephews",
-        "club": "Rodney District Sports Club"
-      },
-      "venue": "Becroft Park: Field 2",
-      "venueAddress": "Becroft Park Reserve",
-      "officials": null,
-      "homeScore": 2,
-      "awayScore": 3,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301667,
-      "kind": "result",
-      "date": "2026-08-08T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 15",
-      "home": {
-        "team": "Knights",
-        "club": "Hibiscus Coast AFC"
-      },
-      "away": {
-        "team": "Oysters",
-        "club": "Warkworth FC"
-      },
-      "venue": "Stanmore Bay Park: Field 3",
-      "venueAddress": "Stanmore Bay Park",
-      "officials": null,
-      "homeScore": 2,
-      "awayScore": 0,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301665,
-      "kind": "result",
-      "date": "2026-08-08T15:00:00",
-      "section": "Section A",
-      "round": "ROUND 15",
-      "home": {
-        "team": "Cyclones",
-        "club": "Rodney District Sports Club"
-      },
-      "away": {
-        "team": "Hardheads",
-        "club": "Greenhithe Roaring 40s Sports Club"
-      },
-      "venue": "Metro Park: Field 1",
-      "venueAddress": "Millwater Parkway, Silverdale, Auckland, 0932",
-      "officials": null,
-      "homeScore": 4,
-      "awayScore": 3,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
       "id": 6301669,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-08-15T13:00:00",
       "section": "Section A",
       "round": "ROUND 16",
@@ -207,7 +141,7 @@
     },
     {
       "id": 6301670,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-08-15T13:00:00",
       "section": "Section A",
       "round": "ROUND 16",
@@ -222,14 +156,14 @@
       "venue": "Shepherds Park: Field 3",
       "venueAddress": "Shepherds Park",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 4,
       "statusName": "Confirmed",
       "publicNotes": null
     },
     {
       "id": 6301671,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-08-15T13:00:00",
       "section": "Section A",
       "round": "ROUND 16",
@@ -244,14 +178,14 @@
       "venue": "Shoesmith Domain: Field 1",
       "venueAddress": "Shoesmith Domain",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 3,
       "statusName": "Confirmed",
       "publicNotes": null
     },
     {
       "id": 6301672,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-08-15T13:00:00",
       "section": "Section A",
       "round": "ROUND 16",
@@ -273,7 +207,7 @@
     },
     {
       "id": 6301668,
-      "kind": "upcoming",
+      "kind": "result",
       "date": "2026-08-15T15:00:00",
       "section": "Section A",
       "round": "ROUND 16",
@@ -285,12 +219,12 @@
         "team": "Craigs Ski Troopers",
         "club": "Northern Rovers FC"
       },
-      "venue": "Ashley Reserve: Field 2(Turf)",
-      "venueAddress": "Ashley Reserve",
+      "venue": "Unallocated",
+      "venueAddress": null,
       "officials": null,
       "homeScore": null,
       "awayScore": null,
-      "statusName": "Confirmed",
+      "statusName": "Defaulted",
       "publicNotes": null
     }
   ],

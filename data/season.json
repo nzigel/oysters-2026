@@ -809,9 +809,9 @@
       "opponentClub": "Rodney District Sports Club",
       "isHome": true,
       "result": {
-        "status": "scheduled",
-        "ourScore": null,
-        "theirScore": null,
+        "status": "confirmed",
+        "ourScore": 2,
+        "theirScore": 3,
         "scorers": [
           {
             "player": "Nigel Parker",
