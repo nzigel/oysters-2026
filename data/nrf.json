@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T05:13:30.988Z",
+  "updated": "2026-08-15T17:09:45.040Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -225,6 +225,116 @@
       "homeScore": null,
       "awayScore": null,
       "statusName": "Defaulted",
+      "publicNotes": null
+    },
+    {
+      "id": 6301673,
+      "kind": "upcoming",
+      "date": "2026-08-22T13:00:00",
+      "section": "Section A",
+      "round": "ROUND 17",
+      "home": {
+        "team": "Craigs Ski Troopers",
+        "club": "Northern Rovers FC"
+      },
+      "away": {
+        "team": "Hardheads",
+        "club": "Greenhithe Roaring 40s Sports Club"
+      },
+      "venue": "McFetridge Park: Field 2",
+      "venueAddress": "Mcfetridge Park",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301675,
+      "kind": "upcoming",
+      "date": "2026-08-22T13:00:00",
+      "section": "Section A",
+      "round": "ROUND 17",
+      "home": {
+        "team": "Nephews",
+        "club": "Rodney District Sports Club"
+      },
+      "away": {
+        "team": "Oysters",
+        "club": "Warkworth FC"
+      },
+      "venue": "Metro Park: Field 1",
+      "venueAddress": "Millwater Parkway, Silverdale, Auckland, 0932",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301677,
+      "kind": "upcoming",
+      "date": "2026-08-22T13:00:00",
+      "section": "Section A",
+      "round": "ROUND 17",
+      "home": {
+        "team": "Cyclones",
+        "club": "Rodney District Sports Club"
+      },
+      "away": {
+        "team": "Coast Thunder",
+        "club": "Hibiscus Coast AFC"
+      },
+      "venue": "Metro Park: Field 2",
+      "venueAddress": "Millwater Parkway, Silverdale, Auckland, 0932",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301674,
+      "kind": "upcoming",
+      "date": "2026-08-22T15:00:00",
+      "section": "Section A",
+      "round": "ROUND 17",
+      "home": {
+        "team": "Ally Pally",
+        "club": "East Coast Bays A.F.C"
+      },
+      "away": {
+        "team": "Buyusabeer",
+        "club": "Birkenhead United AFC"
+      },
+      "venue": "Bay City Park: Field 3",
+      "venueAddress": "Bay City Park",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
+      "id": 6301676,
+      "kind": "upcoming",
+      "date": "2026-08-22T15:00:00",
+      "section": "Section A",
+      "round": "ROUND 17",
+      "home": {
+        "team": "Birkenheadaches",
+        "club": "Birkenhead United AFC"
+      },
+      "away": {
+        "team": "Knights",
+        "club": "Hibiscus Coast AFC"
+      },
+      "venue": "Greville Reserve - Turf: Field 1",
+      "venueAddress": "Greville Reserve",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
       "publicNotes": null
     }
   ],
