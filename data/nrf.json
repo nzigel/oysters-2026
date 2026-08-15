@@ -1,10 +1,32 @@
 {
-  "updated": "2026-08-15T03:03:37.533Z",
+  "updated": "2026-08-15T05:13:30.988Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
   "phaseId": 28268,
   "table": [
+    {
+      "team": "Hibiscus Coast AFC : Knights",
+      "played": 16,
+      "won": 11,
+      "drawn": 2,
+      "lost": 3,
+      "gf": 54,
+      "ga": 32,
+      "gd": 22,
+      "points": 35
+    },
+    {
+      "team": "Rodney District Sports Club : Nephews",
+      "played": 16,
+      "won": 11,
+      "drawn": 1,
+      "lost": 4,
+      "gf": 56,
+      "ga": 39,
+      "gd": 17,
+      "points": 34
+    },
     {
       "team": "Northern Rovers : Craigs Ski Troopers",
       "played": 16,
@@ -17,17 +39,6 @@
       "points": 32
     },
     {
-      "team": "Hibiscus Coast AFC : Knights",
-      "played": 15,
-      "won": 10,
-      "drawn": 2,
-      "lost": 3,
-      "gf": 49,
-      "ga": 31,
-      "gd": 18,
-      "points": 32
-    },
-    {
       "team": "Warkworth FC : Oysters",
       "played": 16,
       "won": 10,
@@ -36,17 +47,6 @@
       "gf": 55,
       "ga": 30,
       "gd": 25,
-      "points": 31
-    },
-    {
-      "team": "Rodney District Sports Club : Nephews",
-      "played": 15,
-      "won": 10,
-      "drawn": 1,
-      "lost": 4,
-      "gf": 51,
-      "ga": 37,
-      "gd": 14,
       "points": 31
     },
     {
@@ -62,13 +62,13 @@
     },
     {
       "team": "Greenhithe Roaring 40s Sports Club : Hardheads",
-      "played": 15,
+      "played": 16,
       "won": 7,
       "drawn": 2,
-      "lost": 6,
-      "gf": 65,
-      "ga": 41,
-      "gd": 24,
+      "lost": 7,
+      "gf": 67,
+      "ga": 46,
+      "gd": 21,
       "points": 23
     },
     {
@@ -106,13 +106,13 @@
     },
     {
       "team": "Hibiscus Coast AFC : Coast Thunder",
-      "played": 14,
+      "played": 15,
       "won": 1,
       "drawn": 0,
-      "lost": 13,
-      "gf": 11,
-      "ga": 125,
-      "gd": -114,
+      "lost": 14,
+      "gf": 12,
+      "ga": 130,
+      "gd": -118,
       "points": 3
     }
   ],
@@ -134,8 +134,8 @@
       "venue": "Greenhithe War Memorial Park: Field 1",
       "venueAddress": "Greenhithe War Memorial Park",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 5,
       "statusName": "Confirmed",
       "publicNotes": null
     },
@@ -200,8 +200,8 @@
       "venue": "Stanmore Bay Park: Field 2",
       "venueAddress": "Stanmore Bay Park",
       "officials": null,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 5,
+      "awayScore": 1,
       "statusName": "Confirmed",
       "publicNotes": null
     },
