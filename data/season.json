@@ -812,7 +812,16 @@
         "status": "scheduled",
         "ourScore": null,
         "theirScore": null,
-        "scorers": [],
+        "scorers": [
+          {
+            "player": "Nigel Parker",
+            "goals": 1
+          },
+          {
+            "player": "Issy Paxton-Penman",
+            "goals": 1
+          }
+        ],
         "selectedSquad": [
           "Temataake Bwauro",
           "Tim Baker",
@@ -831,7 +840,9 @@
         ],
         "notes": "Sam Williamson arriving late. Nigel Parker playing with broken toe.",
         "goalkeeper": "",
-        "referees": []
+        "referees": [
+          "Dane Awatea Vazey"
+        ]
       }
     },
     {
