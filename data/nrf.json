@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T17:09:45.040Z",
+  "updated": "2026-08-15T23:51:21.994Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -250,6 +250,28 @@
       "publicNotes": null
     },
     {
+      "id": 6301674,
+      "kind": "upcoming",
+      "date": "2026-08-22T13:00:00",
+      "section": "Section A",
+      "round": "ROUND 17",
+      "home": {
+        "team": "Ally Pally",
+        "club": "East Coast Bays A.F.C"
+      },
+      "away": {
+        "team": "Buyusabeer",
+        "club": "Birkenhead United AFC"
+      },
+      "venue": "Greville Reserve - Turf: Field 1",
+      "venueAddress": "Greville Reserve",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
       "id": 6301675,
       "kind": "upcoming",
       "date": "2026-08-22T13:00:00",
@@ -272,6 +294,28 @@
       "publicNotes": null
     },
     {
+      "id": 6301676,
+      "kind": "upcoming",
+      "date": "2026-08-22T13:00:00",
+      "section": "Section A",
+      "round": "ROUND 17",
+      "home": {
+        "team": "Birkenheadaches",
+        "club": "Birkenhead United AFC"
+      },
+      "away": {
+        "team": "Knights",
+        "club": "Hibiscus Coast AFC"
+      },
+      "venue": "Shepherds Park: Field 3",
+      "venueAddress": "Shepherds Park",
+      "officials": null,
+      "homeScore": null,
+      "awayScore": null,
+      "statusName": "Confirmed",
+      "publicNotes": null
+    },
+    {
       "id": 6301677,
       "kind": "upcoming",
       "date": "2026-08-22T13:00:00",
@@ -287,50 +331,6 @@
       },
       "venue": "Metro Park: Field 2",
       "venueAddress": "Millwater Parkway, Silverdale, Auckland, 0932",
-      "officials": null,
-      "homeScore": null,
-      "awayScore": null,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301674,
-      "kind": "upcoming",
-      "date": "2026-08-22T15:00:00",
-      "section": "Section A",
-      "round": "ROUND 17",
-      "home": {
-        "team": "Ally Pally",
-        "club": "East Coast Bays A.F.C"
-      },
-      "away": {
-        "team": "Buyusabeer",
-        "club": "Birkenhead United AFC"
-      },
-      "venue": "Bay City Park: Field 3",
-      "venueAddress": "Bay City Park",
-      "officials": null,
-      "homeScore": null,
-      "awayScore": null,
-      "statusName": "Confirmed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301676,
-      "kind": "upcoming",
-      "date": "2026-08-22T15:00:00",
-      "section": "Section A",
-      "round": "ROUND 17",
-      "home": {
-        "team": "Birkenheadaches",
-        "club": "Birkenhead United AFC"
-      },
-      "away": {
-        "team": "Knights",
-        "club": "Hibiscus Coast AFC"
-      },
-      "venue": "Greville Reserve - Turf: Field 1",
-      "venueAddress": "Greville Reserve",
       "officials": null,
       "homeScore": null,
       "awayScore": null,
