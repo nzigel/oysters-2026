@@ -104,6 +104,10 @@
     {
       "number": 24,
       "name": "Issy Paxton-Penman"
+    },
+    {
+      "number": 25,
+      "name": "Blake"
     }
   ],
   "fixtures": [
@@ -859,11 +863,33 @@
         "status": "confirmed",
         "ourScore": 1,
         "theirScore": 2,
-        "scorers": [],
-        "selectedSquad": [],
-        "notes": "",
+        "scorers": [
+          {
+            "player": "Paul Hamblett",
+            "goals": 1
+          }
+        ],
+        "selectedSquad": [
+          "Jake White",
+          "Simon Hartley",
+          "Tęŋ Sŭŋ Qŭịcƙ Tebarine",
+          "Caleb Paxton-Penman",
+          "Issy Paxton-Penman",
+          "Sam Williamson",
+          "Nigel Parker",
+          "Temataake Bwauro",
+          "Bureitabonini Toobwai (Raoiti)",
+          "Paul Hamblett",
+          "Betiraoi Æ Lpú Tebarine",
+          "Isaac Lee",
+          "Blake",
+          "Michael Sweeney"
+        ],
+        "notes": "Michael Sweeney played and refereed.",
         "goalkeeper": "Jake White",
-        "referees": []
+        "referees": [
+          "Michael Sweeney"
+        ]
       }
     },
     {
