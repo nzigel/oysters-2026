@@ -856,9 +856,9 @@
       "opponentClub": "Rodney District Sports Club",
       "isHome": false,
       "result": {
-        "status": "scheduled",
-        "ourScore": null,
-        "theirScore": null,
+        "status": "confirmed",
+        "ourScore": 1,
+        "theirScore": 2,
         "scorers": [],
         "selectedSquad": [],
         "notes": "",
