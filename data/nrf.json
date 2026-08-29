@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T00:49:41.315Z",
+  "updated": "2026-08-29T19:32:37.483Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -228,113 +228,47 @@
       "publicNotes": null
     },
     {
-      "id": 6301679,
+      "id": 6301666,
       "kind": "upcoming",
-      "date": "2026-08-29T13:00:00",
+      "date": "2026-09-05T13:00:00",
       "section": "Section A",
-      "round": "ROUND 18",
-      "home": {
-        "team": "Oysters",
-        "club": "Warkworth FC"
-      },
-      "away": {
-        "team": "Hardheads",
-        "club": "Greenhithe Roaring 40s Sports Club"
-      },
-      "venue": "Unallocated",
-      "venueAddress": null,
-      "officials": null,
-      "homeScore": null,
-      "awayScore": null,
-      "statusName": "Postponed",
-      "publicNotes": "Venue under water - match postponed"
-    },
-    {
-      "id": 6301680,
-      "kind": "upcoming",
-      "date": "2026-08-29T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 18",
-      "home": {
-        "team": "Knights",
-        "club": "Hibiscus Coast AFC"
-      },
-      "away": {
-        "team": "Ally Pally",
-        "club": "East Coast Bays A.F.C"
-      },
-      "venue": "Unallocated",
-      "venueAddress": null,
-      "officials": null,
-      "homeScore": null,
-      "awayScore": null,
-      "statusName": "Postponed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301681,
-      "kind": "upcoming",
-      "date": "2026-08-29T13:00:00",
-      "section": "Section A",
-      "round": "ROUND 18",
+      "round": "ROUND 15",
       "home": {
         "team": "Coast Thunder",
         "club": "Hibiscus Coast AFC"
       },
       "away": {
-        "team": "Nephews",
-        "club": "Rodney District Sports Club"
-      },
-      "venue": "Unallocated",
-      "venueAddress": null,
-      "officials": null,
-      "homeScore": null,
-      "awayScore": null,
-      "statusName": "Postponed",
-      "publicNotes": null
-    },
-    {
-      "id": 6301678,
-      "kind": "upcoming",
-      "date": "2026-08-29T15:00:00",
-      "section": "Section A",
-      "round": "ROUND 18",
-      "home": {
-        "team": "Craigs Ski Troopers",
-        "club": "Northern Rovers FC"
-      },
-      "away": {
         "team": "Buyusabeer",
         "club": "Birkenhead United AFC"
       },
-      "venue": "Unallocated",
-      "venueAddress": null,
+      "venue": "Stanmore Bay Park: Field 2",
+      "venueAddress": "Stanmore Bay Park",
       "officials": null,
       "homeScore": null,
       "awayScore": null,
-      "statusName": "Postponed",
+      "statusName": "Confirmed",
       "publicNotes": null
     },
     {
-      "id": 6301682,
+      "id": 6301664,
       "kind": "upcoming",
-      "date": "2026-08-29T15:00:00",
+      "date": "2026-09-05T15:00:00",
       "section": "Section A",
-      "round": "ROUND 18",
+      "round": "ROUND 15",
       "home": {
-        "team": "Cyclones",
-        "club": "Rodney District Sports Club"
-      },
-      "away": {
         "team": "Birkenheadaches",
         "club": "Birkenhead United AFC"
       },
-      "venue": "Unallocated",
-      "venueAddress": null,
+      "away": {
+        "team": "Ally Pally",
+        "club": "East Coast Bays A.F.C"
+      },
+      "venue": "Shepherds Park: Field 4",
+      "venueAddress": "Shepherds Park",
       "officials": null,
       "homeScore": null,
       "awayScore": null,
-      "statusName": "Postponed",
+      "statusName": "Confirmed",
       "publicNotes": null
     }
   ],
