@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T05:21:05.032Z",
+  "updated": "2026-08-29T00:49:41.315Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -241,13 +241,13 @@
         "team": "Hardheads",
         "club": "Greenhithe Roaring 40s Sports Club"
       },
-      "venue": "Shoesmith Domain: Field 1",
-      "venueAddress": "Shoesmith Domain",
+      "venue": "Unallocated",
+      "venueAddress": null,
       "officials": null,
       "homeScore": null,
       "awayScore": null,
-      "statusName": "Confirmed",
-      "publicNotes": null
+      "statusName": "Postponed",
+      "publicNotes": "Venue under water - match postponed"
     },
     {
       "id": 6301680,
@@ -263,12 +263,12 @@
         "team": "Ally Pally",
         "club": "East Coast Bays A.F.C"
       },
-      "venue": "Stanmore Bay Park: Field 1",
-      "venueAddress": "Stanmore Bay Park",
+      "venue": "Unallocated",
+      "venueAddress": null,
       "officials": null,
       "homeScore": null,
       "awayScore": null,
-      "statusName": "Confirmed",
+      "statusName": "Postponed",
       "publicNotes": null
     },
     {
@@ -285,12 +285,12 @@
         "team": "Nephews",
         "club": "Rodney District Sports Club"
       },
-      "venue": "Stanmore Bay Park: Field 3",
-      "venueAddress": "Stanmore Bay Park",
+      "venue": "Unallocated",
+      "venueAddress": null,
       "officials": null,
       "homeScore": null,
       "awayScore": null,
-      "statusName": "Confirmed",
+      "statusName": "Postponed",
       "publicNotes": null
     },
     {
@@ -307,12 +307,12 @@
         "team": "Buyusabeer",
         "club": "Birkenhead United AFC"
       },
-      "venue": "McFetridge Park: Field 4",
-      "venueAddress": "Mcfetridge Park",
+      "venue": "Unallocated",
+      "venueAddress": null,
       "officials": null,
       "homeScore": null,
       "awayScore": null,
-      "statusName": "Confirmed",
+      "statusName": "Postponed",
       "publicNotes": null
     },
     {
@@ -329,12 +329,12 @@
         "team": "Birkenheadaches",
         "club": "Birkenhead United AFC"
       },
-      "venue": "Metro Park: Field 2",
-      "venueAddress": "Millwater Parkway, Silverdale, Auckland, 0932",
+      "venue": "Unallocated",
+      "venueAddress": null,
       "officials": null,
       "homeScore": null,
       "awayScore": null,
-      "statusName": "Confirmed",
+      "statusName": "Postponed",
       "publicNotes": null
     }
   ],
