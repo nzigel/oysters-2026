@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T11:11:15.083Z",
+  "updated": "2026-09-01T09:37:31.868Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -241,12 +241,12 @@
         "team": "Buyusabeer",
         "club": "Birkenhead United AFC"
       },
-      "venue": "Stanmore Bay Park: Field 2",
-      "venueAddress": "Stanmore Bay Park",
+      "venue": "Unallocated",
+      "venueAddress": null,
       "officials": null,
       "homeScore": null,
       "awayScore": null,
-      "statusName": "Confirmed",
+      "statusName": "Postponed",
       "publicNotes": null
     },
     {
@@ -285,7 +285,7 @@
         "team": "Ally Pally",
         "club": "East Coast Bays A.F.C"
       },
-      "venue": "Stanmore Bay Park: Field 5 ",
+      "venue": "Stanmore Bay Park: Field 1",
       "venueAddress": "Stanmore Bay Park",
       "officials": null,
       "homeScore": null,
@@ -307,12 +307,12 @@
         "team": "Ally Pally",
         "club": "East Coast Bays A.F.C"
       },
-      "venue": "Shepherds Park: Field 4",
-      "venueAddress": "Shepherds Park",
+      "venue": "Unallocated",
+      "venueAddress": null,
       "officials": null,
       "homeScore": null,
       "awayScore": null,
-      "statusName": "Confirmed",
+      "statusName": "Postponed",
       "publicNotes": null
     },
     {
@@ -351,8 +351,8 @@
         "team": "Nephews",
         "club": "Rodney District Sports Club"
       },
-      "venue": "Stanmore Bay Park: Field 5 ",
-      "venueAddress": "Stanmore Bay Park",
+      "venue": "Gulf Harbour Reserve: Field 1",
+      "venueAddress": "Gulf Harbour Reserve",
       "officials": null,
       "homeScore": null,
       "awayScore": null,
