@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T09:37:31.868Z",
+  "updated": "2026-09-03T09:15:18.609Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -351,8 +351,8 @@
         "team": "Nephews",
         "club": "Rodney District Sports Club"
       },
-      "venue": "Gulf Harbour Reserve: Field 1",
-      "venueAddress": "Gulf Harbour Reserve",
+      "venue": "Stanmore Bay Park: Field 5 ",
+      "venueAddress": "Stanmore Bay Park",
       "officials": null,
       "homeScore": null,
       "awayScore": null,
