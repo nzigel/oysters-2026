@@ -904,10 +904,27 @@
       "opponentClub": "Greenhithe Roaring 40s Sports Club",
       "isHome": true,
       "result": {
-        "status": "scheduled",
-        "ourScore": null,
-        "theirScore": null,
-        "scorers": [],
+        "status": "confirmed",
+        "ourScore": 5,
+        "theirScore": 2,
+        "scorers": [
+          {
+            "player": "Caleb Paxton-Penman",
+            "goals": 1
+          },
+          {
+            "player": "Betiraoi Æ Lpú Tebarine",
+            "goals": 2
+          },
+          {
+            "player": "Tęŋ Sŭŋ Qŭịcƙ Tebarine",
+            "goals": 1
+          },
+          {
+            "player": "Nigel Parker",
+            "goals": 1
+          }
+        ],
         "selectedSquad": [
           "Jake White",
           "Temataake Bwauro",
@@ -921,10 +938,10 @@
           "Jimmy Bowens",
           "Tęŋ Sŭŋ Qŭịcƙ Tebarine",
           "Michael Sweeney",
-          "Treye Liu",
           "Dane Awatea Vazey",
           "Nigel Parker",
-          "Keegan Petersen"
+          "Keegan Petersen",
+          "Betiraoi Æ Lpú Tebarine"
         ],
         "notes": "Rescheduled from 29 Aug (13:00) to 5 Sep (15:00).",
         "goalkeeper": "Jake White",
