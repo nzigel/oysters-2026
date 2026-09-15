@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T07:06:17.124Z",
+  "updated": "2026-09-15T09:39:37.737Z",
   "source": "NRF / Sporty.co.nz competition widget API",
   "division": "NRF Men Div. 8 Harbour (Section A)",
   "gradeId": 721160,
@@ -136,7 +136,7 @@
       "officials": null,
       "homeScore": null,
       "awayScore": null,
-      "statusName": "Postponed",
+      "statusName": "Cancelled",
       "publicNotes": null
     },
     {
@@ -202,7 +202,7 @@
       "officials": null,
       "homeScore": null,
       "awayScore": null,
-      "statusName": "Postponed",
+      "statusName": "Cancelled",
       "publicNotes": null
     },
     {
